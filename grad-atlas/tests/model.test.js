@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {filterRecords,sortRecords,safeURL,readSaved} from '../model.js';import fs from 'node:fs';
+const data=JSON.parse(fs.readFileSync(new URL('../data/catalogue.json',import.meta.url)));const records=data.records;
+test('catalogue carries honest record counts',()=>{for(const k of ['programme','candidate','lead'])assert.equal(records.filter(r=>r.kind===k).length,data.meta.counts[k]);assert.equal(new Set(records.map(r=>r.id)).size,records.length);});
+test('default excludes leads and pure mathematics',()=>{const result=filterRecords(records,{});assert.equal(result.length,863);assert.ok(result.every(r=>r.kind!=='lead'&&!r.pureMaths));});
+test('latest regional batch preserves64 route observations',()=>assert.equal(filterRecords(records,{latest:true}).length,64));
+test('multiword search AND + institution filter',()=>{const result=filterRecords(records,{query:'statistics singapore',country:'Singapore'});assert.ok(result.length>0);assert.ok(result.every(r=>r.country==='Singapore'));});
+test('shortlist selection does not bypass filters',()=>{const r=records[0];assert.equal(filterRecords(records,{savedOnly:true},new Set([r.id])).length,1);assert.equal(filterRecords(records,{savedOnly:true,country:'nonexistent'},new Set([r.id])).length,0);});
+test('leads explicitly selectable only',()=>assert.equal(filterRecords(records,{kind:'lead'}).length,450));
+test('sorting is stable and does not mutate input',()=>{const before=records[0].id;sortRecords(records,'title');assert.equal(records[0].id,before);});
+test('unsafe links rejected',()=>{assert.equal(safeURL('javascript:alert(1)'),null);assert.equal(safeURL('https://example.com'),'https://example.com/');});
+test('corrupt local storage harmless',()=>{assert.equal(readSaved({getItem:()=>'{bad'}).size,0);assert.deepEqual([...readSaved({getItem:()=> '["a",2]'} )],['a']);});

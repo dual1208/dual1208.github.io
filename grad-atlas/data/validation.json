@@ -1,0 +1,35 @@
+{
+  "counts": {
+    "programme": 649,
+    "candidate": 214,
+    "lead": 450
+  },
+  "recordCount": 1313,
+  "notUniqueProgrammeCount": true,
+  "latestRegional": 64,
+  "unresolvedSourceLinks": {
+    "candidate": 39,
+    "lead": 46
+  },
+  "privacyPatternScan": {
+    "owner_identifier": 0,
+    "connected_mailbox_identifier": 0,
+    "repository_owner_identifier": 0,
+    "private_message_identifiers": 0,
+    "private_local_paths": 0,
+    "private_cloud_document_links": 0,
+    "authentication_headers": 0,
+    "credential_markers": 0,
+    "executable_script_markup": 0
+  },
+  "publicSQLiteIntegrity": "ok",
+  "publicSQLiteForeignKeyViolations": 0,
+  "originalDatabaseHashUnchanged": true,
+  "jsonBytes": 6759279,
+  "gzipEquivalentBytes": 1295626,
+  "sqliteBytes": 8269824,
+  "sha256": {
+    "catalogue.json": "83092b8ffdf38f57c329007c43b3453e438414b1752a4da2529c5814011d80f3",
+    "catalogue.sqlite": "87bad0011a6bc1c1723ee40b43a4e623b03f751b32d696561e61da3521893e14"
+  }
+}
