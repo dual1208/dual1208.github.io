@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-31",
-  "note": "Upcoming calendar dates, not a personal eligibility assertion. Scope and cutoff timezone must be checked.",
+  "note": "Upcoming application endpoints, not necessarily final programme closure or personal eligibility. Scope, round, deadline semantics and cutoff timezone must be checked; flagged/known priority, funding-only and recommended dates are excluded.",
   "upcoming_application_closures": [
     {
       "id": "p-166e236b53c503c56d5b",
@@ -26,7 +26,9 @@
       "notes": "",
       "source_urls": [
         "https://study.anu.edu.au/apply/international-applications"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-76f0685be56f58535bb4",
@@ -52,7 +54,9 @@
       "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant.",
       "source_urls": [
         "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-0a3683d6bbf1cadf0154",
@@ -78,7 +82,9 @@
       "notes": "No exact closing time/timezone stated.",
       "source_urls": [
         "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/met/repositorio-de-arquivos/edital_2026-2027_selecao_pgmet_final_semlogo.pdf"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-4db10b6b8a24a9007f38",
@@ -104,7 +110,9 @@
       "notes": "",
       "source_urls": [
         "https://apply.dal.ca/portal/program-explorer?cmd=details_page&program=MSC-AGRI"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-136f49ddece3826794c8",
@@ -130,7 +138,9 @@
       "notes": "",
       "source_urls": [
         "https://apply.dal.ca/portal/program-explorer?cmd=details_page&program=MSC-OCEA"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-72c7f08420ec9f5fa448",
@@ -156,7 +166,9 @@
       "notes": "Central commencement not separately stated round opening; rolling assessment and capacity limits may apply.",
       "source_urls": [
         "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-bb4401278c0c12ae4ffd",
@@ -183,7 +195,122 @@
       "source_urls": [
         "https://www.elte.hu/en/computer-science-msc",
         "https://www.elte.hu/en/applications-open-for-february-2027-and-september-2027"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-84ff522f435edcb40ccc",
+      "title": "Master of Analytics, Business specialisation",
+      "institution": "Massey University",
+      "country": "New Zealand",
+      "review_status": "reviewed",
+      "classification": "programme",
+      "intake_label": "Semester One 2027",
+      "cycle": "2027",
+      "round_label": "Main",
+      "applicant_scope": "New international students",
+      "mode": "Unspecified",
+      "window_type": "application",
+      "start_date": null,
+      "end_date": "2026-10-31",
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "not_published",
+      "end_status": "exact",
+      "evidence_note": "Published 2027 application period/round.",
+      "notes": "Standard qualification due date linked by programme. New international applications may be accepted after due date if space remains. Confirm chosen specialisation/course start availability.",
+      "source_urls": [
+        "https://www.massey.ac.nz/study/admission-and-enrolment/key-admission-and-course-enrolment-dates/admission-application-due-dates/"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-e26db0bc07f0a792f466",
+      "title": "MSc Bioinformatics of Infectious Diseases and Pathogen Genomics",
+      "institution": "Stellenbosch University",
+      "country": "South Africa",
+      "review_status": "partial",
+      "classification": "programme",
+      "intake_label": "2027 entry",
+      "cycle": "Published 2026–27 application dates",
+      "round_label": "Main",
+      "applicant_scope": "South African students",
+      "mode": "Unspecified",
+      "window_type": "application",
+      "start_date": "2026-04-01",
+      "end_date": "2026-10-31",
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "exact",
+      "end_status": "exact",
+      "evidence_note": "Programme catalogue explicitly opens 1 April 2026 and closes 31 October 2026.",
+      "notes": "",
+      "source_urls": [
+        "https://www.su.ac.za/fr/programmes/node/25893"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-5fe6b0ec110b4df9a150",
+      "title": "Master of Financial Engineering",
+      "institution": "University of Johannesburg",
+      "country": "South Africa",
+      "review_status": "partial",
+      "classification": "programme",
+      "intake_label": "Next intake; dates stated in2026",
+      "cycle": "2026 application round",
+      "round_label": "Main",
+      "applicant_scope": "Unspecified",
+      "mode": "full-time / part-time",
+      "window_type": "application",
+      "start_date": "2026-04-01",
+      "end_date": "2026-10-31",
+      "cutoff_time": "12:00",
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "exact",
+      "end_status": "exact",
+      "evidence_note": "Programme explicitly opens1April2026/closes31October2026; central PG table specifies12:00. Financial Engineering is not listed among earlier-deadline exclusions.",
+      "notes": "Timezone not stated; do not treat as end-of-day. Intake year not explicitly identified on programme page.",
+      "source_urls": [
+        "https://www.uj.ac.za/university-courses/master-of-financial-engineering/",
+        "https://www.uj.ac.za/admission-aid/postgraduate/"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-994e8816b7c906503ce1",
+      "title": "Master of Development Practice (MDP)",
+      "institution": "University of Peradeniya",
+      "country": "Sri Lanka",
+      "review_status": "reviewed",
+      "classification": "programme",
+      "intake_label": "2027 entry",
+      "cycle": "2027",
+      "round_label": "Main",
+      "applicant_scope": "All applicants",
+      "mode": "Unspecified",
+      "window_type": "application",
+      "start_date": null,
+      "end_date": "2026-10-31",
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "not_published",
+      "end_status": "exact",
+      "evidence_note": "2027 intake notice explicitly closes31October2026; event metadata starts13September2026 but this is not unambiguously application opening, so opening left missing.",
+      "notes": "",
+      "source_urls": [
+        "https://web.pgihs.ac.lk/index.php/event/intake-2027/"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-54187c88888bd65ca9f9",
@@ -209,7 +336,9 @@
       "notes": "",
       "source_urls": [
         "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/application-deadlines-requirements/"
-      ]
+      ],
+      "deadline_semantics": "final_closure",
+      "semantics_review_required": false
     },
     {
       "id": "p-ce6d6c8a55c56fe4903d",
@@ -235,7 +364,37 @@
       "notes": "No application cutoff hour stated.",
       "source_urls": [
         "https://portal.ige.unicamp.br/sites/portal8.ige.unicamp.br.portal/files/processos-seletivos/2026-08/Edital-Selecao%20PPG%20PCT%20ingresso%202027%20versao%20final.pdf"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-e56de61dc9dbb7e34449",
+      "title": "MSc Peace and Conflict Studies",
+      "institution": "University of Port Harcourt",
+      "country": "Nigeria",
+      "review_status": "reviewed",
+      "classification": "programme",
+      "intake_label": "2026/2027 session",
+      "cycle": "2026/27",
+      "round_label": "Main",
+      "applicant_scope": "All applicants",
+      "mode": "full-time",
+      "window_type": "application",
+      "start_date": null,
+      "end_date": "2026-11-02",
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "not_published",
+      "end_status": "exact",
+      "evidence_note": "Sale and submission of completed applications with all enclosures terminate Monday 2 November 2026; start date not stated.",
+      "notes": "",
+      "source_urls": [
+        "https://www.uniport.edu.ng/latest-info/application-for-admission-into-graduate-programmes-in-the-2026-2027-session/"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-06261e8c6e2a3daf3ab6",
@@ -261,7 +420,9 @@
       "notes": "",
       "source_urls": [
         "https://s3-ap-northeast-1.amazonaws.com/apumate-doc/international/application_handbook_GR_27.pdf"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-42fee705b7a4fa897c64",
@@ -287,7 +448,9 @@
       "notes": "",
       "source_urls": [
         "https://www.aub.edu.lb/Registrar/catalogue2026-27/gr/Pages/admissions.aspx"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-5a2810e9aebbfd4811d9",
@@ -313,7 +476,9 @@
       "notes": "Rolling assessment; may close when full. Opening is central 2027/28 commencement, not a separately stated round opening.",
       "source_urls": [
         "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-1b8fe26cf102bb42b70a",
@@ -339,7 +504,9 @@
       "notes": "",
       "source_urls": [
         "https://www.hiroshima-u.ac.jp/index.php/en/smart_society/admission/m"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-d2680a3280e12765084e",
@@ -365,7 +532,9 @@
       "notes": "",
       "source_urls": [
         "https://www.ouc.ac.cy/index.php/en/studies/master/master-dpp-2"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-752538137261ee678ded",
@@ -391,7 +560,9 @@
       "notes": "",
       "source_urls": [
         "https://admissions.ugm.ac.id/v26/international-applicants-foreign/information/timeline/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-d2b037c66f81d5ac1ced",
@@ -417,7 +588,9 @@
       "notes": "",
       "source_urls": [
         "https://www.curtin.edu.au/study/offering/course-pg-master-of-information-science--mc-infsci/?region=int"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-712a36c6ca35f2589a71",
@@ -443,7 +616,9 @@
       "notes": "ANID national scholarship applicants in round 2 should apply in December 2026; separate scholarship agency deadlines not verified.",
       "source_urls": [
         "https://www.mgpp.cl/admision/postulaciones/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     }
   ],
   "date_conflicts": [
@@ -471,7 +646,9 @@
       "notes": "Current central table says November 20, 2026; archived hardware report said November 30, 2026. Department page returns HTTP 502; override not resolved.",
       "source_urls": [
         "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-a46f675978f9a81a7716",
@@ -498,7 +675,9 @@
       "source_urls": [
         "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-knowledge-mangement",
         "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-f7d2351d26c8c1443d8b",
@@ -524,7 +703,9 @@
       "notes": "Official page prints impossible 31 November 2026; no corrected date inferred.",
       "source_urls": [
         "https://www.uow.edu.au/study/courses/master-of-supply-chain-management/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-f7a82438de6727f5914d",
@@ -551,7 +732,9 @@
       "source_urls": [
         "https://www.uhasselt.be/en/study/programmes/master-of-transportation-sciences",
         "https://www.uhasselt.be/en/study/application-and-admission/application-process"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-f7a82438de6727f5914d",
@@ -578,7 +761,9 @@
       "source_urls": [
         "https://www.uhasselt.be/en/study/programmes/master-of-transportation-sciences",
         "https://www.uhasselt.be/en/study/application-and-admission/application-process"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-fef140d094b154a1a647",
@@ -605,7 +790,9 @@
       "source_urls": [
         "https://www.brandonu.ca/graduate-studies/applications/",
         "https://www.brandonu.ca/calendar/files/2026/02/Graduate-Calendar-2026-27.pdf"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-fef140d094b154a1a647",
@@ -632,7 +819,9 @@
       "source_urls": [
         "https://www.brandonu.ca/graduate-studies/applications/",
         "https://www.brandonu.ca/calendar/files/2026/02/Graduate-Calendar-2026-27.pdf"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-dc2765c69e12da80e29b",
@@ -659,7 +848,9 @@
       "source_urls": [
         "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-architecture",
         "https://sala.ubc.ca/program/master-of-architecture/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-42da6a00abeb1e8b1830",
@@ -685,7 +876,9 @@
       "notes": "",
       "source_urls": [
         "https://www.uoguelph.ca/programs/msc-in-rural-planning-development/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-c4f348e67335787053b6",
@@ -711,7 +904,9 @@
       "notes": "",
       "source_urls": [
         "https://www.uasb.edu.ec/programa/cambio-climatico-sustentabilidad-y-desarrollo/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-83dcba89f34cc6858d90",
@@ -737,7 +932,9 @@
       "notes": "",
       "source_urls": [
         "https://admissions.ucc.edu.gh/announcement/admission-of-sandwich-postgraduate-students-20262027"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-d13ce6efcf78c8b37811",
@@ -763,7 +960,9 @@
       "notes": "",
       "source_urls": [
         "https://admissions.ucc.edu.gh/announcement/admission-of-sandwich-postgraduate-students-20262027"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-592e901560d082da9a8e",
@@ -790,7 +989,9 @@
       "source_urls": [
         "https://www.elte.hu/en/computational-and-cognitive-neuroscience-msc",
         "https://ppk.elte.hu/en/computational-and-cognitive-neuroscience-msc"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-24a0a68807b21db07800",
@@ -816,7 +1017,9 @@
       "notes": "",
       "source_urls": [
         "https://www.jaist.ac.jp/admissions/data/0.clickhere_Me_2027.4.pdf"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-b36ca6d2cce70e071f08",
@@ -842,7 +1045,37 @@
       "notes": "",
       "source_urls": [
         "https://ioe.auca.kg/application-to-mat/"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-612ee4c150a0a06a19fe",
+      "title": "MSc Applied and Computational Mathematics — applied imaging/ocean/environmental modelling pathways",
+      "institution": "University of Bergen",
+      "country": "Norway",
+      "review_status": "partial",
+      "classification": "programme",
+      "intake_label": "August 2027",
+      "cycle": "2027/28",
+      "round_label": "Main",
+      "applicant_scope": "Non-EU/EEA residing abroad",
+      "mode": "Unspecified",
+      "window_type": "application",
+      "start_date": null,
+      "end_date": null,
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "conflicting",
+      "end_status": "conflicting",
+      "evidence_note": "Published 2027/28 application period/round.",
+      "notes": "2026 study plan says only Norway residents/Nordic/EU, but official non-EU2026/27 list includes programme. Central2027 window Nov1–Dec1 exists; applicability unresolved, not transferred as actionable.",
+      "source_urls": [
+        "https://www4.uib.no/en/studies/programmes/applied-and-computational-mathematics-masters/plan"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     },
     {
       "id": "p-23dcfae3e6fcd86222a7",
@@ -869,7 +1102,67 @@
       "source_urls": [
         "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-information-studies",
         "https://www.ntu.edu.sg/admissions/graduate/cwadmissionguide"
-      ]
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-e371653c9929324a7a68",
+      "title": "Master of Science in Statistics (SLQF Level 10)",
+      "institution": "University of Kelaniya",
+      "country": "Sri Lanka",
+      "review_status": "partial",
+      "classification": "programme",
+      "intake_label": "2026 intake",
+      "cycle": "2026",
+      "round_label": "Main",
+      "applicant_scope": "All applicants",
+      "mode": "Unspecified",
+      "window_type": "application",
+      "start_date": null,
+      "end_date": null,
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "not_published",
+      "end_status": "conflicting",
+      "evidence_note": "Published 2026 application period/round.",
+      "notes": "Page headline gives May 1, 2026; embedded 2026 intake flyer says extended February 10, 2026. No explicit version chronology establishes which supersedes. Exact opening absent.",
+      "source_urls": [
+        "https://fgs.kln.ac.lk/index.php/13-sample-data-article/portfolio/design/317-stat-2026",
+        "https://fgs.kln.ac.lk/images/unnamed.png"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
+    },
+    {
+      "id": "p-aad539b5ea9096072928",
+      "title": "Master's in Cognitive Neuroscience",
+      "institution": "National Central University (NCU)",
+      "country": "Taiwan",
+      "review_status": "partial",
+      "classification": "programme",
+      "intake_label": "February 2027",
+      "cycle": "2026/27",
+      "round_label": "Main",
+      "applicant_scope": "International applicants",
+      "mode": "Unspecified",
+      "window_type": "application",
+      "start_date": null,
+      "end_date": "2026-09-30",
+      "cutoff_time": null,
+      "timezone": null,
+      "timezone_basis": "not stated",
+      "start_status": "conflicting",
+      "end_status": "exact",
+      "evidence_note": "Official indexed important-dates page says August 1, 2026 opening; September announcement says August 30, 2026. Both end September 30. Full date pages failed; opening unresolved.",
+      "notes": "",
+      "source_urls": [
+        "https://cis.ncu.edu.tw/admissions/menu.content/view/sn/72",
+        "https://cis.ncu.edu.tw/admissions/content/view/sn/85"
+      ],
+      "deadline_semantics": "unspecified",
+      "semantics_review_required": false
     }
   ]
 }

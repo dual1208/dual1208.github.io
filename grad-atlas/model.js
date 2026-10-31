@@ -4,13 +4,19 @@ export function validDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s||''))return false;
 export function exactDate(window,side){const date=window[side+'_date'];return window[side+'_status']==='exact'&&validDate(date)?date:null;}
 export function todayISO(timezone, now=new Date()){try{return new Intl.DateTimeFormat('en-CA',{timeZone:timezone||'UTC',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}catch{return now.toISOString().slice(0,10);}}
 export function daysBetween(a,b){return Math.round((Date.parse(b+'T00:00:00Z')-Date.parse(a+'T00:00:00Z'))/86400000);}
+export function deadlineMeaning(w){
+ const type=dateTypeLabel(w.window_type);
+ const meanings={final_closure:['Final application closure','final application closure'],round_deadline:['Round deadline · later rounds may exist','round deadline'],priority_consideration:['Priority consideration · not final closure','priority consideration'],funding_consideration:['Funding consideration · not final closure','funding consideration'],recommended_submission:['Recommended submission only · not closure','recommended submission'],document_deadline:['Supporting documents deadline','document deadline'],scholarship_deadline:['Scholarship deadline','scholarship deadline']};
+ const [label,due]=meanings[w.deadline_semantics]||[type+' deadline/end · closure not confirmed',type.toLowerCase()+' deadline/end'];
+ return {label,due};
+}
 export function windowState(w,now=new Date()){
- const today=todayISO(w.timezone,now),start=exactDate(w,'start'),end=exactDate(w,'end');
+ const today=todayISO(w.timezone,now),start=exactDate(w,'start'),end=exactDate(w,'end'),due=deadlineMeaning(w).due;
  if(['not_offered','discontinued'].includes(w.availability_status))return {key:'unavailable',label:w.availability_status==='not_offered'?'Not offered for this intake':'Programme discontinued',days:null};
- if(end&&end<today)return {key:'closed',label:'Past deadline',days:daysBetween(today,end)};
- if(start&&start>today)return {key:'future',label:'Not yet open',days:daysBetween(today,start)};
- if(end===today)return {key:'today',label:'Deadline today · confirm time',days:0};
- if(end){const days=daysBetween(today,end);return {key:start?'open':'upcoming',label:(start?'Open · ':'Opening unconfirmed · ')+days+' calendar days to deadline',days};}
+ if(end&&end<today)return {key:'closed',label:'Past '+due,days:daysBetween(today,end)};
+ if(start&&start>today)return {key:'future',label:'This window has not started',days:daysBetween(today,start)};
+ if(end===today)return {key:'today',label:due+' today · confirm time',days:0};
+ if(end){const days=daysBetween(today,end);return {key:start?'open':'upcoming',label:(start?'Window started · ':'Opening unconfirmed · ')+days+' calendar days to '+due,days};}
  if(w.end_status==='rolling')return {key:'rolling',label:'Rolling · confirm availability',days:null};
  if(w.start_status==='conflicting'||w.end_status==='conflicting')return {key:'conflicting',label:'Conflicting dates',days:null};
  return {key:'unknown',label:'Window not confirmed',days:null};

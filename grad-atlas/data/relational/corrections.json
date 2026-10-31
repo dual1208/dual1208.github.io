@@ -59,5 +59,15 @@
       "https://www.oulu.fi/en/apply/how-apply/applying-masters-programmes/language-requirements-for-masters-degrees"
     ],
     "reason": "Fresh official page supersedes archived language threshold."
+  },
+  {
+    "programme_id": "p-71dea2b1ebd5c27b6c90",
+    "field": "international_eligibility",
+    "previous_claim": "International opportunity if previously inferred",
+    "current_claim": "Domestic only; contradictory template international dates not actionable",
+    "source_urls": [
+      "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-business-management.html"
+    ],
+    "reason": "Explicit programme restriction appears twice."
   }
 ]

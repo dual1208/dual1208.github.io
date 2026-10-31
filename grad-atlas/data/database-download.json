@@ -1,7 +1,7 @@
 {
-  "gzipBytes": 4315826,
-  "decompressedBytes": 21405696,
-  "gzipSHA256": "a452a1931af28e6195617492e1ca66af2fb975e5ce580f65c66771641624242b",
-  "sqliteSHA256": "f99241be7b6442ecf04aa85d147f1cc2c9fdd41e4329c0c3c0073ee6c8e01ffc",
-  "sourceRelease": "20261031T093112Z-reviews485"
+  "gzipBytes": 4651136,
+  "decompressedBytes": 22773760,
+  "gzipSHA256": "22bfae29595aa78d6350ebe070e017dffbb7e062fb3954a08c13e60191b40dff",
+  "sqliteSHA256": "6d2a3f8278d2cc4544436f99ea82609dfd727e2364b19fc750767d1e245049c2",
+  "sourceRelease": "20261031T094817Z-reviews647"
 }

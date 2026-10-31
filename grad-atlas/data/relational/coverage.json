@@ -7,47 +7,47 @@
     "positive_programme_identities": 875,
     "lead_only_identities": 411,
     "institutions": 770,
-    "application_windows": 1861
+    "application_windows": 2029
   },
   "coverage": {
     "reviews": {
-      "partial": 276,
-      "reviewed": 206,
+      "partial": 331,
+      "reviewed": 313,
       "blocked": 3,
-      "unverified": 801
+      "unverified": 639
     },
-    "programmes_with_reviewed_exact_start_and_end": 210,
-    "programmes_with_verified_requirements": 473,
+    "programmes_with_reviewed_exact_start_and_end": 299,
+    "programmes_with_verified_requirements": 633,
     "start_statuses": {
-      "exact": 403,
-      "not_published": 446,
-      "annual": 123,
-      "conflicting": 3,
-      "rolling": 55,
-      "not_verified": 831
+      "exact": 561,
+      "not_published": 565,
+      "annual": 160,
+      "conflicting": 5,
+      "rolling": 60,
+      "not_verified": 678
     },
     "end_statuses": {
-      "exact": 653,
-      "conflicting": 12,
-      "annual": 192,
-      "not_published": 152,
-      "not_verified": 842,
-      "rolling": 10
+      "exact": 871,
+      "conflicting": 14,
+      "annual": 231,
+      "not_published": 204,
+      "not_verified": 692,
+      "rolling": 17
     },
-    "programme_identities_without_resolved_source": 63,
+    "programme_identities_without_resolved_source": 57,
     "duplicate_candidates_pending": 0,
     "confirmed_aliases": 1,
     "positive_programmes": {
       "total": 875,
       "reviews": {
-        "reviewed": 206,
-        "partial": 276,
+        "reviewed": 313,
+        "partial": 331,
         "blocked": 3,
-        "unverified": 390
+        "unverified": 228
       },
-      "inspected": 485,
-      "with_reviewed_exact_start_and_end": 210,
-      "with_verified_requirements": 473
+      "inspected": 647,
+      "with_reviewed_exact_start_and_end": 299,
+      "with_verified_requirements": 633
     },
     "lead_only": {
       "total": 411,
@@ -64,14 +64,14 @@
     "all_identities": {
       "total": 1286,
       "reviews": {
-        "reviewed": 206,
-        "partial": 276,
+        "reviewed": 313,
+        "partial": 331,
         "blocked": 3,
-        "unverified": 801
+        "unverified": 639
       },
-      "inspected": 485,
-      "with_reviewed_exact_start_and_end": 210,
-      "with_verified_requirements": 473
+      "inspected": 647,
+      "with_reviewed_exact_start_and_end": 299,
+      "with_verified_requirements": 633
     }
   },
   "caveats": [

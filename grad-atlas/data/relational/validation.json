@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "check_count": 10063,
+  "check_count": 16862,
   "summary": [
     "Integrity, foreign keys, full input preservation, unique export IDs",
     "Every identity has explicit application and requirements outcome",
@@ -16,36 +16,36 @@
   },
   "files": {
     "programmes.sqlite": {
-      "bytes": 21405696,
-      "sha256": "f99241be7b6442ecf04aa85d147f1cc2c9fdd41e4329c0c3c0073ee6c8e01ffc"
+      "bytes": 22773760,
+      "sha256": "6d2a3f8278d2cc4544436f99ea82609dfd727e2364b19fc750767d1e245049c2"
     },
     "table.json": {
-      "bytes": 4585398,
-      "sha256": "6d7ff09579009ddf27d0bffa381766da75e6d4be86caac540aca71c8893eeb4d"
+      "bytes": 4965014,
+      "sha256": "1f9fd0e2b089c426ae816029d9ad7ec0e67c412a8c4c81ddc3f66103966f2d3a"
     }
   },
   "coverage": {
     "all_identities": {
-      "inspected": 485,
+      "inspected": 647,
       "reviews": {
         "blocked": 3,
-        "partial": 276,
-        "reviewed": 206,
-        "unverified": 801
+        "partial": 331,
+        "reviewed": 313,
+        "unverified": 639
       },
       "total": 1286,
-      "with_reviewed_exact_start_and_end": 210,
-      "with_verified_requirements": 473
+      "with_reviewed_exact_start_and_end": 299,
+      "with_verified_requirements": 633
     },
     "confirmed_aliases": 1,
     "duplicate_candidates_pending": 0,
     "end_statuses": {
-      "annual": 192,
-      "conflicting": 12,
-      "exact": 653,
-      "not_published": 152,
-      "not_verified": 842,
-      "rolling": 10
+      "annual": 231,
+      "conflicting": 14,
+      "exact": 871,
+      "not_published": 204,
+      "not_verified": 692,
+      "rolling": 17
     },
     "lead_only": {
       "inspected": 0,
@@ -60,33 +60,33 @@
       "with_verified_requirements": 0
     },
     "positive_programmes": {
-      "inspected": 485,
+      "inspected": 647,
       "reviews": {
         "blocked": 3,
-        "partial": 276,
-        "reviewed": 206,
-        "unverified": 390
+        "partial": 331,
+        "reviewed": 313,
+        "unverified": 228
       },
       "total": 875,
-      "with_reviewed_exact_start_and_end": 210,
-      "with_verified_requirements": 473
+      "with_reviewed_exact_start_and_end": 299,
+      "with_verified_requirements": 633
     },
-    "programme_identities_without_resolved_source": 63,
-    "programmes_with_reviewed_exact_start_and_end": 210,
-    "programmes_with_verified_requirements": 473,
+    "programme_identities_without_resolved_source": 57,
+    "programmes_with_reviewed_exact_start_and_end": 299,
+    "programmes_with_verified_requirements": 633,
     "reviews": {
       "blocked": 3,
-      "partial": 276,
-      "reviewed": 206,
-      "unverified": 801
+      "partial": 331,
+      "reviewed": 313,
+      "unverified": 639
     },
     "start_statuses": {
-      "annual": 123,
-      "conflicting": 3,
-      "exact": 403,
-      "not_published": 446,
-      "not_verified": 831,
-      "rolling": 55
+      "annual": 160,
+      "conflicting": 5,
+      "exact": 561,
+      "not_published": 565,
+      "not_verified": 678,
+      "rolling": 60
     }
   }
 }
