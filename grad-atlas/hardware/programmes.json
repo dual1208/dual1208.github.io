@@ -1,0 +1,226 @@
+{
+  "title": "Maths-to-hardware graduate routes",
+  "as_of": "2026-10-31",
+  "scope": "Singapore and Hong Kong first; selected international conversion routes",
+  "ranking_basis": "Admissibility evidence, technical fit and work-integrated training, not estimated job probabilities",
+  "programmes": [
+    {
+      "id": "nus-sto",
+      "name": "NUS MSc Semiconductor Technology and Operations",
+      "region": "Singapore",
+      "math_eligibility": "explicit_mathematics",
+      "hardware_track": "fabrication/process; packaging/test; operations",
+      "admission_evidence": "STEM bachelor explicitly includes Mathematics; at least NUS second-class honours or equivalent. Discretionary intake may consider relevant working experience; competitive selection.",
+      "next_intake_deadline": "August 2027; applications 1 October 2026–28 February 2027",
+      "tuition": "AY2027/28 S$59,600 including GST; miscellaneous fees/living costs extra; acceptance payment credited, not extra.",
+      "industry_evidence": "Optional 8-unit, 15-week Singapore industry internship for full-time students. Packaging/testing and IC technology courses.",
+      "caution": "Best local fabrication-facing match, but not every internship is fab engineering; projects may concern business/operations. No verified programme-specific placement rate.",
+      "sources": {
+        "admission": "https://cde.nus.edu.sg/ece/graduate/msc_sto/admission-requirements/",
+        "curriculum": "https://cde.nus.edu.sg/ece/graduate/msc_sto/programme-structure-degree-requirements/",
+        "fees": "https://cde.nus.edu.sg/ece/graduate/msc_sto/tuition-fees/",
+        "deadline": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/application-period/"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "nus-compeng",
+      "name": "NUS MSc Computer Engineering — Computing Hardware Infrastructure",
+      "region": "Singapore",
+      "math_eligibility": "explicit_applied_mathematics",
+      "hardware_track": "digital hardware/accelerators; embedded",
+      "admission_evidence": "Admission explicitly includes applied mathematics; honours preferred. General/pure mathematics is not explicitly named; a pure-maths transcript needs individual eligibility assessment, not an assumption that it counts as applied mathematics.",
+      "next_intake_deadline": "August 2027; applications 1 October 2026–28 February 2027",
+      "tuition": "AY2027/28 S$59,600 including GST; miscellaneous fees/living costs extra.",
+      "industry_evidence": "Hardware acceleration/reconfigurable computing, FPGA, embedded systems, VLSI digital design elective; specialisation requires project.",
+      "caution": "Best explicit applied-maths route toward accelerator/FPGA work; not wafer fabrication and not a guaranteed GPU/TPU design job. No internship requirement found.",
+      "sources": {
+        "admission": "https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/admission-requirements/",
+        "curriculum": "https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/programme-structure-degree-requirements/",
+        "fees": "https://cde.nus.edu.sg/ece/graduate/msc-computer-engineering/tuition-fees/",
+        "deadline": "https://cde.nus.edu.sg/graduate/graduate-programmes-by-coursework/application-period/"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "bu-leap",
+      "name": "Boston University LEAP → MS Electrical & Computer Engineering",
+      "region": "USA",
+      "math_eligibility": "explicit_conversion",
+      "hardware_track": "digital/embedded/IC via engineering foundation",
+      "admission_evidence": "LEAP accepts non-engineering backgrounds. Calculus I grade B or better within five years before matriculation; GRE listed in current FAQ. Personalised undergraduate engineering foundation before masters.",
+      "next_intake_deadline": "Fall 2027 priority January 15, final March 15; Spring 2027 November 1, 2026 deadline is imminent, not a reason to rush an incomplete application.",
+      "tuition": "2026/27 masters US$2,282/credit; 32-credit ECE MS US$73,024 tuition alone. LEAP foundation costs additional and not published as one fixed total.",
+      "industry_evidence": "Engineering Practice masters option incorporates paid internship; obtaining a position is not guaranteed.",
+      "caution": "Real conversion rather than pretending a maths degree includes circuits. Typically at least two years full-time. Expensive; nationality, visa and internship authorisation must be assessed separately.",
+      "sources": {
+        "admission": "https://www.bu.edu/eng/admissions/graduate/leap/leap-faqs/",
+        "foundation": "https://www.bu.edu/eng/admissions/graduate/leap/program-planning/",
+        "fees": "https://www.bu.edu/eng/admissions/graduate/graduate-admissions/tuition-fees/",
+        "practice": "https://www.bu.edu/eng/admissions/graduate/masters-degrees/"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "purdue-online",
+      "name": "Purdue online MS — Microelectronics and Semiconductors",
+      "region": "USA / online",
+      "math_eligibility": "explicit_mathematics",
+      "hardware_track": "devices/manufacturing; packaging; circuit/system design",
+      "admission_evidence": "Nonengineering applicants including mathematics can receive MS (not MSE). Detailed admissions minimum GPA 3.2; strong candidates 3.4. Calculus I/II plus linear algebra or differential equations for credit.",
+      "next_intake_deadline": "Annual deadlines: spring December 1, summer May 1, fall August 1.",
+      "tuition": "Published US$1,459/credit nonresident; 30 credits implies US$43,770 before other charges or future increases; Indiana/VA-benefit rate differs.",
+      "industry_evidence": "Online curriculum spanning packaging, devices, circuits and systems. No guaranteed hands-on fab internship documented.",
+      "caution": "Skills route, not a US relocation or campus-recruiting substitute. Overview says GPA 3.0 while detailed admissions says 3.2: use stricter detailed criterion pending clarification.",
+      "sources": {
+        "overview": "https://engineering.purdue.edu/online/programs/masters-degrees/semiconductors",
+        "admission": "https://engineering.purdue.edu/online/programs/masters-degrees/semiconductors/admissions"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "cityu-p86",
+      "name": "CityU MSc Intelligent Semiconductor Manufacturing",
+      "region": "Hong Kong",
+      "math_eligibility": "conditional_science_not_explicit_maths",
+      "hardware_track": "manufacturing/process/automation",
+      "admission_evidence": "Engineering/science degree or equivalent; maths is not individually named. Eligibility needs transcript-specific assessment.",
+      "next_intake_deadline": "2027 entry; rolling deadline February 28, 2027, 23:59 HKT.",
+      "tuition": "Not verified: official fee page returned 403.",
+      "industry_evidence": "Manufacturing-focused degree; no audited placement rate or guaranteed internship verified.",
+      "caution": "Strong topical match but do not label confirmed maths-admissible. Full-time one year; 30 credits.",
+      "sources": {
+        "programme": "https://www.cb.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-systems-engineering/p86",
+        "fees_unreadable": "https://www.cityu.edu.hk/sgs/files/fees/tpg/P86/index.htm"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "cityu-p54",
+      "name": "CityU MSc Electrical and Electronic Engineering",
+      "region": "Hong Kong",
+      "math_eligibility": "broad_degree_rule_not_conversion_guarantee",
+      "hardware_track": "electronics/embedded; hardware research",
+      "admission_evidence": "Published entry rule requires recognised degree/equivalent without a named discipline restriction; not evidence of remedial circuits teaching.",
+      "next_intake_deadline": "2027 entry; rolling deadline February 28, 2027.",
+      "tuition": "Not verified.",
+      "industry_evidence": "Applied Research Internship Scheme; 30-credit route one year, 45-credit industrial-research option 1.5 years full-time.",
+      "caution": "More credible work-integrated structure than generic employer logos. Technical readiness and internship selection remain risks.",
+      "sources": {
+        "programme": "https://www.cityu.edu.hk/en/pg/programme/program-list/2027/college-of-engineering/department-of-electrical-engineering/p54",
+        "curriculum": "https://www.ee.cityu.edu.hk/prospective_students/graduate_admission/mseee_curriculum"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "ntu-ic",
+      "name": "NTU MSc Integrated Circuits & Microelectronics",
+      "region": "Singapore",
+      "math_eligibility": "conditional_relevant_degree",
+      "hardware_track": "IC design; devices/fabrication; packaging",
+      "admission_evidence": "Good relevant bachelor degree. Mathematics not explicitly named. Renamed from MSc Electronics from August 2026.",
+      "next_intake_deadline": "Next exact application deadline not verified.",
+      "tuition": "Not verified.",
+      "industry_evidence": "Includes digital/analog IC, VLSI, wafer processing, packaging and Graduate Professional Internship course.",
+      "caution": "Attractive technical breadth; not safe to assume a maths-only transcript is relevant enough.",
+      "sources": {
+        "programme": "https://www.ntu.edu.sg/spms/admissions/grad/detail/master-of-science-in-integrated-circuits-and-microelectronics"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "tum-ic",
+      "name": "TUM Asia/NTU MSc Integrated Circuit Design",
+      "region": "Singapore",
+      "math_eligibility": "engineering_prerequisites_not_confirmed_maths",
+      "hardware_track": "IC design",
+      "admission_evidence": "Electrical/electronics engineering or closely related bachelor; mathematics not explicitly accepted.",
+      "next_intake_deadline": "Exact ICD deadline not verified; do not copy another TUM programme deadline.",
+      "tuition": "Published total S$58,403.07 including 9% GST; registration payment included.",
+      "industry_evidence": "Industry-oriented programme; internship/thesis structure requires programme-specific final check.",
+      "caution": "Do not prioritise for maths-only applicant without substantial circuits and electronics coursework.",
+      "sources": {
+        "programme": "https://tum-asia.edu.sg/graduate-studies/master-integrated-circuit-design/",
+        "admission": "https://tum-asia.edu.sg/admissions/graduate-studies/requirements/"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "hkust-ic",
+      "name": "HKUST MSc Integrated Circuits",
+      "region": "Hong Kong",
+      "math_eligibility": "not_explicit_maths",
+      "hardware_track": "IC design/tapeout",
+      "admission_evidence": "Second-class honours in Electronic Engineering, Engineering Science or Physical Sciences. Mathematics cannot automatically be treated as Physical Sciences.",
+      "next_intake_deadline": "2027 deadline not verified.",
+      "tuition": "2026/27 full-time HK$240,000; 2027/28 fee not verified.",
+      "industry_evidence": "System definition through tapeout curriculum; no verified programme-specific placement rate.",
+      "caution": "Conditional stretch, not confirmed conversion. One year full-time.",
+      "sources": {
+        "programme": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/msc-ic"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "hku-ices",
+      "name": "HKU MSc(Eng) Integrated Circuits & Electronic Systems",
+      "region": "Hong Kong",
+      "math_eligibility": "conditional_related_science",
+      "hardware_track": "IC design/electronic systems",
+      "admission_evidence": "Programme wording: Engineering or related Science. Generic faculty wording mentioning mathematics is not programme-specific assurance.",
+      "next_intake_deadline": "2027/28 main January 4, 2027 noon HKT; clearing April 9 noon HKT.",
+      "tuition": "2027/28 local HK$250,000; nonlocal HK$395,000.",
+      "industry_evidence": "72-credit curriculum including dissertation focused on integrated circuits and electronic systems. No reliable placement statistics verified.",
+      "caution": "Engineering/related-science wording does not explicitly establish maths eligibility; generic faculty admissions wording is insufficient.",
+      "sources": {
+        "programme": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-integrated-circuits-electronic-systems/",
+        "department": "https://ece.hku.hk/study/tpg/"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "hku-mst",
+      "name": "HKU MSc(Eng) Microelectronics Science & Technology",
+      "region": "Hong Kong",
+      "math_eligibility": "conditional_related_science",
+      "hardware_track": "fabrication/materials/packaging/test",
+      "admission_evidence": "Programme wording: Engineering or related Science. Generic faculty wording mentioning mathematics is not programme-specific assurance.",
+      "next_intake_deadline": "2027/28 main January 4, 2027 noon HKT; clearing April 9 noon HKT.",
+      "tuition": "2027/28 local HK$250,000; nonlocal HK$395,000.",
+      "industry_evidence": "72-credit curriculum including dissertation; describes cleanroom/fabrication work. No reliable placement statistics verified.",
+      "caution": "MST recruitment page contains unrelated construction/accreditation/testimonial template text. Do not use employer logos/testimonials as evidence.",
+      "sources": {
+        "programme": "https://mscadmissions.engg.hku.hk/master-of-science-in-engineering-in-microelectronics-science-technology/",
+        "department": "https://ece.hku.hk/study/tpg/"
+      },
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "cuhk-ee",
+      "name": "CUHK MSc Electronic Engineering",
+      "region": "Hong Kong",
+      "math_eligibility": "requires_electronics_background_for_other_degrees",
+      "hardware_track": "electronics/IC",
+      "admission_evidence": "EE/information/computer engineering normally; other disciplines considered with electronics experience/background. Mathematics not named.",
+      "next_intake_deadline": "2027/28 next rounds November 30, 2026 and January 18, 2027.",
+      "tuition": "Provisional 2027/28 HK$270,000.",
+      "industry_evidence": "No verified guaranteed internship or programme-specific placement rate.",
+      "caution": "Not a direct route for a maths-only fresh graduate.",
+      "sources": {
+        "admission": "https://www.ee.cuhk.edu.hk/en-gb/curriculum/msc-programme/admission"
+      },
+      "checked_at": "2026-10-31"
+    }
+  ],
+  "placement_data": "No audited programme-specific employment rate established in this research pass. Industry links and internships are not job guarantees.",
+  "unresolved": [
+    "NTU and selected HK 2027 tuition/deadlines",
+    "Maths transcript eligibility for programmes saying relevant engineering/science",
+    "User nationality, work rights, budget, physics/electronics preparation",
+    "PolyU source inconsistencies documented in report"
+  ],
+  "visa_sources": {
+    "Singapore": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+    "Hong_Kong": "https://www.immd.gov.hk/eng/services/visas/IANG.html"
+  }
+}
