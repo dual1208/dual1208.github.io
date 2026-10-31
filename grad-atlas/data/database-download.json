@@ -1,0 +1,7 @@
+{
+  "gzipBytes": 4315826,
+  "decompressedBytes": 21405696,
+  "gzipSHA256": "a452a1931af28e6195617492e1ca66af2fb975e5ce580f65c66771641624242b",
+  "sqliteSHA256": "f99241be7b6442ecf04aa85d147f1cc2c9fdd41e4329c0c3c0073ee6c8e01ffc",
+  "sourceRelease": "20261031T093112Z-reviews485"
+}

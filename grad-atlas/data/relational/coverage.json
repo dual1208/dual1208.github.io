@@ -1,0 +1,84 @@
+{
+  "as_of": "2026-10-31",
+  "counts": {
+    "confirmed_alias_count": 1,
+    "source_records": 1325,
+    "conservative_programme_identities": 1286,
+    "positive_programme_identities": 875,
+    "lead_only_identities": 411,
+    "institutions": 770,
+    "application_windows": 1861
+  },
+  "coverage": {
+    "reviews": {
+      "partial": 276,
+      "reviewed": 206,
+      "blocked": 3,
+      "unverified": 801
+    },
+    "programmes_with_reviewed_exact_start_and_end": 210,
+    "programmes_with_verified_requirements": 473,
+    "start_statuses": {
+      "exact": 403,
+      "not_published": 446,
+      "annual": 123,
+      "conflicting": 3,
+      "rolling": 55,
+      "not_verified": 831
+    },
+    "end_statuses": {
+      "exact": 653,
+      "conflicting": 12,
+      "annual": 192,
+      "not_published": 152,
+      "not_verified": 842,
+      "rolling": 10
+    },
+    "programme_identities_without_resolved_source": 63,
+    "duplicate_candidates_pending": 0,
+    "confirmed_aliases": 1,
+    "positive_programmes": {
+      "total": 875,
+      "reviews": {
+        "reviewed": 206,
+        "partial": 276,
+        "blocked": 3,
+        "unverified": 390
+      },
+      "inspected": 485,
+      "with_reviewed_exact_start_and_end": 210,
+      "with_verified_requirements": 473
+    },
+    "lead_only": {
+      "total": 411,
+      "reviews": {
+        "reviewed": 0,
+        "partial": 0,
+        "blocked": 0,
+        "unverified": 411
+      },
+      "inspected": 0,
+      "with_reviewed_exact_start_and_end": 0,
+      "with_verified_requirements": 0
+    },
+    "all_identities": {
+      "total": 1286,
+      "reviews": {
+        "reviewed": 206,
+        "partial": 276,
+        "blocked": 3,
+        "unverified": 801
+      },
+      "inspected": 485,
+      "with_reviewed_exact_start_and_end": 210,
+      "with_verified_requirements": 473
+    }
+  },
+  "caveats": [
+    "Programme identities are conservatively reconciled; semantic duplicates and distinct track names remain for review. Counts are not a verified unique-award total.",
+    "Historical structured dates retain their cycle and source history but are not fresh verification. A checked date is never invented for an unreviewed record.",
+    "Null dates distinguish not verified, officially not published, rolling, annual or conflicting. Missing dates are not fabricated.",
+    "Application and supporting-document/scholarship deadlines are separate window types. Applicant groups and modes may have different windows.",
+    "Public database contains sanitized public research only; raw source captures and private evidence stay outside this export."
+  ]
+}

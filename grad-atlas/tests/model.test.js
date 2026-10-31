@@ -1,11 +1,22 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {filterRecords,sortRecords,safeURL,readSaved} from '../model.js';import fs from 'node:fs';
-const data=JSON.parse(fs.readFileSync(new URL('../data/catalogue.json',import.meta.url)));const records=data.records;
-test('catalogue carries honest record counts',()=>{for(const k of ['programme','candidate','lead'])assert.equal(records.filter(r=>r.kind===k).length,data.meta.counts[k]);assert.equal(new Set(records.map(r=>r.id)).size,records.length);});
-test('default excludes leads and pure mathematics',()=>{const result=filterRecords(records,{});assert.equal(result.length,863);assert.ok(result.every(r=>r.kind!=='lead'&&!r.pureMaths));});
-test('latest regional batch preserves64 route observations',()=>assert.equal(filterRecords(records,{latest:true}).length,64));
-test('multiword search AND + institution filter',()=>{const result=filterRecords(records,{query:'statistics singapore',country:'Singapore'});assert.ok(result.length>0);assert.ok(result.every(r=>r.country==='Singapore'));});
-test('shortlist selection does not bypass filters',()=>{const r=records[0];assert.equal(filterRecords(records,{savedOnly:true},new Set([r.id])).length,1);assert.equal(filterRecords(records,{savedOnly:true,country:'nonexistent'},new Set([r.id])).length,0);});
-test('leads explicitly selectable only',()=>assert.equal(filterRecords(records,{kind:'lead'}).length,450));
-test('sorting is stable and does not mutate input',()=>{const before=records[0].id;sortRecords(records,'title');assert.equal(records[0].id,before);});
-test('unsafe links rejected',()=>{assert.equal(safeURL('javascript:alert(1)'),null);assert.equal(safeURL('https://example.com'),'https://example.com/');});
-test('corrupt local storage harmless',()=>{assert.equal(readSaved({getItem:()=>'{bad'}).size,0);assert.deepEqual([...readSaved({getItem:()=> '["a",2]'} )],['a']);});
+import test from 'node:test';import assert from 'node:assert/strict';import {validDate,exactDate,windowState,endpoint,adapt,filterRows,sortRows,coverage,safeURL,dateTypeLabel,splitScopeCoverage}from '../model.js';
+const now=new Date('2026-10-31T12:00:00Z');const w={start_date:'2026-10-01',start_status:'exact',end_date:'2027-02-28',end_status:'exact',window_type:'application'};const p={id:'x',title:'Programme',country:'Singapore',field:'Hardware',classification:'programme',record_kinds:['programme'],windows:[w],requirements:[]};
+test('strict dates reject impossible days',()=>{assert.equal(validDate('2027-02-29'),false);assert.equal(validDate('2028-02-29'),true);});
+test('annual date never promoted exact',()=>assert.equal(exactDate({...w,end_status:'annual'},'end'),null));
+test('unknown endpoint conspicuous',()=>assert.equal(endpoint({end_status:'not_verified'},'end').primary,'NOT VERIFIED'));
+test('no opening does not claim open',()=>assert.equal(windowState({...w,start_status:'not_verified'},now).key,'upcoming'));
+test('rolling does not claim always open',()=>assert.match(windowState({end_status:'rolling'},now).label,/confirm/));
+test('deadline today is not assumed closed at midnight',()=>assert.equal(windowState({...w,end_date:'2026-10-31'},now).key,'today'));
+test('past deadline labelled',()=>assert.equal(windowState({...w,end_date:'2026-10-30'},now).key,'closed'));
+test('unknown programme retains row',()=>assert.equal(adapt({programmes:[{...p,windows:[]}]}).length,1));
+test('all rounds kept',()=>assert.equal(adapt({programmes:[{...p,windows:[w,w]}]}).length,2));
+test('leads excluded by default and available in archive',()=>{const rows=adapt({programmes:[p,{...p,id:'lead',classification:'research_lead'}]});assert.equal(filterRows(rows,{scope:'programmes'},now).length,1);assert.equal(filterRows(rows,{scope:'all'},now).length,2);});
+test('requirements filter honest',()=>assert.equal(filterRows(adapt({programmes:[p]}),{requirements:'verified'},now).length,0));
+test('programme coverage not window count',()=>{const c=coverage(adapt({programmes:[{...p,windows:[w,w]}]}));assert.equal(c.programmes,1);assert.equal(c.windows,2);});
+test('safe URLs exclude scripts',()=>assert.equal(safeURL('javascript:alert(1)'),null));
+test('upcoming exact deadline sorts before missing and past',()=>{const a=adapt({programmes:[p,{...p,id:'missing',windows:[]},{...p,id:'past',windows:[{...w,end_date:'2026-01-01'}]}]});assert.deepEqual(sortRows(a,'end',now).map(r=>r.programme.id),['x','missing','past']);});
+test('not offered overrides future date status',()=>assert.equal(windowState({...w,availability_status:'not_offered'},now).key,'unavailable'));
+
+test('non-application event labels cannot say application',()=>{assert.equal(dateTypeLabel('scholarship'),'Scholarship');assert.equal(dateTypeLabel('supporting_documents'),'Supporting documents');});
+test('programme coverage excludes research leads and supplemental event rows',()=>{const rows=adapt({programmes:[{...p,windows:[w,{...w,window_type:'scholarship'}]},{...p,id:'lead',classification:'research_lead',windows:[w]}]});const c=splitScopeCoverage(rows);assert.equal(c.positive.programmes,1);assert.equal(c.positive.windows,1);assert.equal(c.leadIdentities,1);});
+
+test('database download explicitly names lossless gzip format',async()=>{const {readFile}=await import('node:fs/promises');const html=await readFile(new URL('../index.html',import.meta.url),'utf8');assert.match(html,/href="data\/programmes\.sqlite\.gz" download>Download database \(\.sqlite\.gz\)/);});

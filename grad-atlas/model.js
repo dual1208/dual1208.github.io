@@ -1,23 +1,25 @@
-export const normalize = value => String(value ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-export function filterRecords(records, filters, saved = new Set()) {
- const terms = normalize(filters.query).split(/\s+/).filter(Boolean);
- return records.filter(r => {
-  if (filters.savedOnly && !saved.has(r.id)) return false;
-  if (filters.kind ? r.kind !== filters.kind : r.kind === 'lead' || r.pureMaths) return false;
-  if (filters.country && r.country !== filters.country) return false;
-  if (filters.field && r.field !== filters.field) return false;
-  if (filters.institution && r.institution !== filters.institution) return false;
-  if (filters.regional && !/singapore|hong kong/i.test(r.country)) return false;
-  if (filters.latest && !r.latestRegional) return false;
-  const haystack = r._search ?? normalize([r.title,r.institution,r.country,r.field,JSON.stringify(r.sections),JSON.stringify(r.details)].join(' '));
-  return terms.every(t => haystack.includes(t));
- });
+export const normalize = x => String(x ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+export const safeURL = value => {try {const u=new URL(value); return ['http:','https:'].includes(u.protocol)?u.href:null;}catch{return null;}};
+export function validDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(s||''))return false;const d=new Date(s+'T00:00:00Z');return !isNaN(d)&&d.toISOString().slice(0,10)===s;}
+export function exactDate(window,side){const date=window[side+'_date'];return window[side+'_status']==='exact'&&validDate(date)?date:null;}
+export function todayISO(timezone, now=new Date()){try{return new Intl.DateTimeFormat('en-CA',{timeZone:timezone||'UTC',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}catch{return now.toISOString().slice(0,10);}}
+export function daysBetween(a,b){return Math.round((Date.parse(b+'T00:00:00Z')-Date.parse(a+'T00:00:00Z'))/86400000);}
+export function windowState(w,now=new Date()){
+ const today=todayISO(w.timezone,now),start=exactDate(w,'start'),end=exactDate(w,'end');
+ if(['not_offered','discontinued'].includes(w.availability_status))return {key:'unavailable',label:w.availability_status==='not_offered'?'Not offered for this intake':'Programme discontinued',days:null};
+ if(end&&end<today)return {key:'closed',label:'Past deadline',days:daysBetween(today,end)};
+ if(start&&start>today)return {key:'future',label:'Not yet open',days:daysBetween(today,start)};
+ if(end===today)return {key:'today',label:'Deadline today · confirm time',days:0};
+ if(end){const days=daysBetween(today,end);return {key:start?'open':'upcoming',label:(start?'Open · ':'Opening unconfirmed · ')+days+' calendar days to deadline',days};}
+ if(w.end_status==='rolling')return {key:'rolling',label:'Rolling · confirm availability',days:null};
+ if(w.start_status==='conflicting'||w.end_status==='conflicting')return {key:'conflicting',label:'Conflicting dates',days:null};
+ return {key:'unknown',label:'Window not confirmed',days:null};
 }
-export function sortRecords(records, key) {
- return [...records].sort((a,b) => {
-  if (key === 'recent') return (b.checkedAt || '').localeCompare(a.checkedAt || '') || Number(b.latestRegional)-Number(a.latestRegional) || a.title.localeCompare(b.title);
-  return (a[key] || '').localeCompare(b[key] || '') || a.title.localeCompare(b.title);
- });
-}
-export function safeURL(value) { try { const u = new URL(value); return ['https:','http:'].includes(u.protocol) ? u.href : null; } catch {return null;} }
-export function readSaved(storage) {try {const a=JSON.parse(storage.getItem('grad-atlas-shortlist-v1') || '[]');return new Set(Array.isArray(a)?a.filter(x=>typeof x==='string'):[]);}catch{return new Set();}}
+export function endpoint(w,side){const date=exactDate(w,side);if(date){const d=new Date(date+'T12:00:00Z');return {exact:true,primary:d.toLocaleDateString('en-GB',{day:'2-digit',month:'short',timeZone:'UTC'}).toUpperCase(),secondary:String(d.getUTCFullYear()),label:date};}const status=w[side+'_status']||'not_verified';return {exact:false,primary:({annual:'ANNUAL RULE',rolling:'ROLLING',not_published:'NOT FOUND',not_verified:'NOT VERIFIED',conflicting:'CONFLICTING'})[status]||'NOT VERIFIED',secondary:({annual:'No cycle-specific date',rolling:'No fixed date',not_published:'In checked official sources',not_verified:'Needs source review',conflicting:'See competing evidence'})[status]||'Needs source review',label:status};}
+export function adapt(data){const programmes=data.programmes||[];return programmes.flatMap(p=>{const windows=p.windows?.length?p.windows:[{id:'unverified',window_type:'application',start_status:'not_verified',end_status:'not_verified',intake_label:'Intake unverified',applicant_scope:'Unspecified',source_urls:[]}];return windows.map((w,i)=>({id:String(p.id)+'::'+String(w.id??i),programme:p,window:w,_search:normalize([p.title,p.institution,p.country,p.field,w.intake_label,w.cycle,w.round_label,w.applicant_scope,JSON.stringify(p.requirements||[])].join(' '))}));});}
+export function filterRows(rows,f,now=new Date()){const terms=normalize(f.q).split(/\s+/).filter(Boolean);return rows.filter(r=>{const p=r.programme,w=r.window,s=windowState(w,now);if(f.country&&p.country!==f.country)return false;if(f.field&&p.field!==f.field)return false;if(f.kind&&!(p.record_kinds||[]).includes(f.kind))return false;if(f.type&&w.window_type!==f.type)return false;if(f.scope==='programmes'&&(p.excluded||p.pure_maths||p.classification==='research_lead'||((p.record_kinds||[]).length>0&&(p.record_kinds||[]).every(k=>k==='lead'))))return false;if(f.requirements==='verified'&&!(p.requirements||[]).some(r=>r.status==='verified'))return false;if(f.requirements==='missing'&&(p.requirements||[]).some(r=>r.status==='verified'))return false;if(f.status==='pair'&&!(exactDate(w,'start')&&exactDate(w,'end')))return false;if(f.status==='missing'&&exactDate(w,'start')&&exactDate(w,'end'))return false;if(f.status==='soon'&&!(exactDate(w,'end')&&s.days>=0&&s.days<=30))return false;if(f.status==='closed'&&s.key!=='closed')return false;if(f.status==='rolling'&&s.key!=='rolling')return false;if(f.status==='unavailable'&&s.key!=='unavailable')return false;return terms.every(t=>r._search.includes(t));});}
+export function sortRows(rows,key,now=new Date()){return [...rows].sort((a,b)=>{if(key==='title')return a.programme.title.localeCompare(b.programme.title);if(key==='start')return(exactDate(a.window,'start')||'9999').localeCompare(exactDate(b.window,'start')||'9999');const rank=r=>{const d=exactDate(r.window,'end'),today=todayISO(r.window.timezone,now);return !d?1:d<today?2:0;};return rank(a)-rank(b)||(exactDate(a.window,'end')||'9999').localeCompare(exactDate(b.window,'end')||'9999')||a.programme.title.localeCompare(b.programme.title);});}
+export function coverage(rows){const p=new Map(rows.map(r=>[r.programme.id,r.programme]));return {programmes:p.size,windows:rows.length,exactPairs:rows.filter(r=>r.window.evidence_origin==='official_review'&&exactDate(r.window,'start')&&exactDate(r.window,'end')).length,missingEndpoints:rows.filter(r=>!exactDate(r.window,'start')||!exactDate(r.window,'end')).length,requirements:[...p.values()].filter(p=>(p.requirements||[]).some(r=>r.status==='verified')).length,reviewed:[...p.values()].filter(p=>p.review_status==='reviewed').length};}
+
+export function dateTypeLabel(type){return ({application:'Application',supporting_documents:'Supporting documents',scholarship:'Scholarship',enrolment:'Enrolment',other:'Other event'})[type]||'Date window';}
+export function splitScopeCoverage(rows){const positive=filterRows(rows,{scope:'programmes',type:'application'});const leads=rows.filter(r=>r.programme.classification==='research_lead');return {positive:coverage(positive),leadIdentities:new Set(leads.map(r=>r.programme.id)).size,positiveUnverifiedPairs:positive.filter(r=>r.window.evidence_origin!=='official_review'||!exactDate(r.window,'start')||!exactDate(r.window,'end')).length};}

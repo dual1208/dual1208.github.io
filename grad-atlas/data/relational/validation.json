@@ -1,0 +1,92 @@
+{
+  "status": "pass",
+  "check_count": 10063,
+  "summary": [
+    "Integrity, foreign keys, full input preservation, unique export IDs",
+    "Every identity has explicit application and requirements outcome",
+    "Exact dates validated and ordered; official exact dates cite source",
+    "Unreviewed rows never given a current checked date",
+    "Public output privacy pattern scan passes"
+  ],
+  "privacy_scan": {
+    "private_cloud_link": 0,
+    "absolute_local_path": 0,
+    "credential_token": 0,
+    "cookie_header": 0
+  },
+  "files": {
+    "programmes.sqlite": {
+      "bytes": 21405696,
+      "sha256": "f99241be7b6442ecf04aa85d147f1cc2c9fdd41e4329c0c3c0073ee6c8e01ffc"
+    },
+    "table.json": {
+      "bytes": 4585398,
+      "sha256": "6d7ff09579009ddf27d0bffa381766da75e6d4be86caac540aca71c8893eeb4d"
+    }
+  },
+  "coverage": {
+    "all_identities": {
+      "inspected": 485,
+      "reviews": {
+        "blocked": 3,
+        "partial": 276,
+        "reviewed": 206,
+        "unverified": 801
+      },
+      "total": 1286,
+      "with_reviewed_exact_start_and_end": 210,
+      "with_verified_requirements": 473
+    },
+    "confirmed_aliases": 1,
+    "duplicate_candidates_pending": 0,
+    "end_statuses": {
+      "annual": 192,
+      "conflicting": 12,
+      "exact": 653,
+      "not_published": 152,
+      "not_verified": 842,
+      "rolling": 10
+    },
+    "lead_only": {
+      "inspected": 0,
+      "reviews": {
+        "blocked": 0,
+        "partial": 0,
+        "reviewed": 0,
+        "unverified": 411
+      },
+      "total": 411,
+      "with_reviewed_exact_start_and_end": 0,
+      "with_verified_requirements": 0
+    },
+    "positive_programmes": {
+      "inspected": 485,
+      "reviews": {
+        "blocked": 3,
+        "partial": 276,
+        "reviewed": 206,
+        "unverified": 390
+      },
+      "total": 875,
+      "with_reviewed_exact_start_and_end": 210,
+      "with_verified_requirements": 473
+    },
+    "programme_identities_without_resolved_source": 63,
+    "programmes_with_reviewed_exact_start_and_end": 210,
+    "programmes_with_verified_requirements": 473,
+    "reviews": {
+      "blocked": 3,
+      "partial": 276,
+      "reviewed": 206,
+      "unverified": 801
+    },
+    "start_statuses": {
+      "annual": 123,
+      "conflicting": 3,
+      "exact": 403,
+      "not_published": 446,
+      "not_verified": 831,
+      "rolling": 55
+    }
+  }
+}

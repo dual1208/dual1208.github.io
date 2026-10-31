@@ -1,0 +1,46 @@
+{
+  "SCHEMA.md": {
+    "bytes": 3986,
+    "sha256": "6f2b829f0ea644f8091cd2be5cfa91cd752cee727ce840d71b5b4d1bfc8d4fdc"
+  },
+  "corrections.json": {
+    "bytes": 2798,
+    "sha256": "5f8687df2257bb2000c510ed3850f2e056a29be9d95e9b5deec3f68c28a3e19a"
+  },
+  "coverage.json": {
+    "bytes": 2610,
+    "sha256": "da56f3258e400606a57d2d8a3499345250f4cb5fadca03f0fc3750540a064e54"
+  },
+  "duplicate-candidates.json": {
+    "bytes": 304,
+    "sha256": "89311c7a03ff125a555c5a5c129af36d477c1c18241088d70f427a745edfe2f8"
+  },
+  "identity-resolutions.json": {
+    "bytes": 620,
+    "sha256": "d5310b8b27366f924bf1413506944c7fe5622e3a2ff6da030dd1e84a473065c8"
+  },
+  "programmes.sqlite": {
+    "bytes": 21405696,
+    "sha256": "f99241be7b6442ecf04aa85d147f1cc2c9fdd41e4329c0c3c0073ee6c8e01ffc"
+  },
+  "public-source-allowlist.json": {
+    "bytes": 367,
+    "sha256": "42363a2ff940c46531d11dc15e4a31d3f4cd0816eb3f9107988431439e7fc0e9"
+  },
+  "schema.sql": {
+    "bytes": 3853,
+    "sha256": "1b55a9b62bb752c02163102b372627397098b541afa4a147faf3d4422b6c7467"
+  },
+  "table.json": {
+    "bytes": 4585398,
+    "sha256": "6d7ff09579009ddf27d0bffa381766da75e6d4be86caac540aca71c8893eeb4d"
+  },
+  "urgent-and-conflicts.json": {
+    "bytes": 34255,
+    "sha256": "5b0e82bc3d3956d551516d573631dc443db3c6f2f07761307ba9238eb0c75873"
+  },
+  "validation.json": {
+    "bytes": 2380,
+    "sha256": "f83d4edbfe3eafcbff9079058353554a5f17664903606c97e372f215845bd084"
+  }
+}

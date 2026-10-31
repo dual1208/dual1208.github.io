@@ -1,0 +1,63 @@
+[
+  {
+    "programme_id": "p-d5a89df25d1a7a2e3a80",
+    "field": "application_deadline",
+    "previous_claim": "January intake annual October31 closing",
+    "current_claim": "January2027 extended to November30,2026",
+    "source_urls": [
+      "https://masters.smu.edu.sg/programme/master-in-economics"
+    ],
+    "reason": "Explicit current intake extension overrides annual rule."
+  },
+  {
+    "programme_id": "p-6f16fbd221989851370c",
+    "field": "availability and deadline",
+    "previous_claim": "Not accepting applications; 2027 unverified",
+    "current_claim": "Accepting applications; closes April30,2027",
+    "source_urls": [
+      "https://www.tru.ca/programs/catalogue/master-of-education.html"
+    ],
+    "reason": "Live catalogue now gives explicit status and dated deadline."
+  },
+  {
+    "programme_id": "p-a1e3c7be55f372fa69b4",
+    "field": "availability/deadline",
+    "previous_claim": "Not accepting applications",
+    "current_claim": "Applications accepted until April 30, 2027",
+    "source_urls": [
+      "https://www.tru.ca/programs/catalogue/master-of-education.html"
+    ],
+    "reason": "Current official admissions page supersedes earlier archived claim."
+  },
+  {
+    "programme_id": "p-aede014593bf2b28fa3b",
+    "field": "tests/language/application",
+    "previous_claim": "2027 unverified; mandatory GRE; no online English tests; two-year validity",
+    "current_claim": "2027call published: GRE/GMAToptional, accepted online English tests and three-year validity",
+    "source_urls": [
+      "https://corsi.unibo.it/s/3394/p/en/enrolling-grenfin/avvisolm-grenfin-emjm-27-28_en-2-prot.pdf/@@download/file/AvvisoLM-GrEnFIn-EMJM-27-28_EN-2-PROT.pdf",
+      "https://assets.greening-energy-market-finance-emjm.eu/document/GrEnFIn___Language_Certificates_2026_2027_1791557055522_5968ba27a50b0671.pdf"
+    ],
+    "reason": "New cycle formal admission notice supersedes archived2026call."
+  },
+  {
+    "programme_id": "p-768aa9c7174762d8adca",
+    "field": "application_round_3_end",
+    "previous_claim": "2026-11-30",
+    "current_claim": "Central official table: 2026-11-20; unresolved departmental override",
+    "source_urls": [
+      "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
+    ],
+    "reason": "Current central schedule differs from archived hardware claim; department source inaccessible."
+  },
+  {
+    "programme_id": "p-4b9a1ac1270bb4375388",
+    "field": "English section threshold",
+    "previous_claim": "IELTS each section 5.5",
+    "current_claim": "Current central masters page: IELTS each section 6.0",
+    "source_urls": [
+      "https://www.oulu.fi/en/apply/how-apply/applying-masters-programmes/language-requirements-for-masters-degrees"
+    ],
+    "reason": "Fresh official page supersedes archived language threshold."
+  }
+]
