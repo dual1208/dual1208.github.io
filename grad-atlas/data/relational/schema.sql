@@ -14,6 +14,9 @@ CREATE TABLE programmes(id TEXT PRIMARY KEY,institution_id TEXT NOT NULL REFEREN
 CREATE TABLE requirement_sources(requirement_id TEXT NOT NULL REFERENCES requirements(id),source_id TEXT NOT NULL REFERENCES sources(id),PRIMARY KEY(requirement_id,source_id));
 CREATE TABLE requirements(id TEXT PRIMARY KEY,programme_id TEXT NOT NULL REFERENCES programmes(id),category TEXT NOT NULL,requirement_text TEXT NOT NULL,status TEXT NOT NULL,evidence_origin TEXT NOT NULL,is_displayed INTEGER NOT NULL);
 CREATE TABLE research_reviews(programme_id TEXT PRIMARY KEY REFERENCES programmes(id),status TEXT NOT NULL,checked_at TEXT,notes TEXT NOT NULL);
+CREATE TABLE review_annotations(programme_id TEXT PRIMARY KEY REFERENCES programmes(id),outcome_recorded INTEGER NOT NULL,attempted_at TEXT,resolved_programmes_json TEXT NOT NULL,linked_review_updates_json TEXT NOT NULL);
+CREATE TABLE source_observations(programme_id TEXT NOT NULL REFERENCES programmes(id),source_id TEXT NOT NULL REFERENCES sources(id),checked_at TEXT,access_status TEXT,access_method TEXT,direct_fetch_status TEXT,PRIMARY KEY(programme_id,source_id));
+CREATE TABLE source_safety(source_id TEXT PRIMARY KEY REFERENCES sources(id),link_allowed INTEGER NOT NULL,safety_status TEXT NOT NULL,reason TEXT NOT NULL);
 CREATE TABLE sources(id TEXT PRIMARY KEY,url TEXT NOT NULL UNIQUE,title TEXT,checked_at TEXT,access_status TEXT);
 CREATE TABLE window_sources(window_id TEXT NOT NULL REFERENCES application_windows(id),source_id TEXT NOT NULL REFERENCES sources(id),PRIMARY KEY(window_id,source_id));
 CREATE VIEW date_coverage AS SELECT p.id,p.title,p.review_status,COUNT(w.id) AS application_window_count,SUM(w.start_status='exact') AS exact_starts,SUM(w.end_status='exact') AS exact_ends FROM programmes p JOIN intakes i ON i.programme_id=p.id JOIN application_windows w ON w.intake_id=i.id WHERE w.is_displayed=1 AND w.window_type='application' GROUP BY p.id;

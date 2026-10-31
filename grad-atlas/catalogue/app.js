@@ -1,4 +1,4 @@
-import {normalize, filterRecords, sortRecords, safeURL, sourceWarning, readSaved} from './model.js?v=sourcesafety1';
+import {normalize, filterRecords, sortRecords, safeURL, sourceWarning, readSaved} from './model.js?v=finalschema1';
 const $=id=>document.getElementById(id);
 const dom = (tag, cls, text) => {const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
 let storage;try{storage=window.localStorage;}catch{storage={getItem:()=>null,setItem:()=>{}};}

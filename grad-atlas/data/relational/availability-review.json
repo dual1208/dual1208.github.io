@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "p-10462c16ce7b235a574d",
+    "title": "MSc Science of Learning",
+    "institution": "Nanyang Technological University, National Institute of Education",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-038c7c6c794bd881b417",
+        "intake_label": "August 2027",
+        "cycle": "2027",
+        "round_label": "Main",
+        "applicant_scope": "Local and non-local applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Explicitly excluded for full-time and part-time in August2027 exercise.",
+        "notes": "",
+        "source_urls": [
+          "https://www.ntu.edu.sg/nie/admissions/graduate-education/graduate-programmes-application-exercise"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.ntu.edu.sg/nie/admissions/graduate-education/graduate-programmes-application-exercise"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Historical January2027 dates in prior records not reverified on current exercise page. Current page contains an unlabeled second availability table; not treated as a dated intake.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-4e9c02fb742ecd0f6e03",
+    "title": "MSc Cognitive Systems: Language, Learning and Reasoning",
+    "institution": "University of Potsdam",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-08fff0de52e6e8acf763",
+        "intake_label": "Summer 2027 first semester",
+        "cycle": "2027",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme deadline table explicitly says application not possible for first-semester summer2027.",
+        "notes": "",
+        "source_urls": [
+          "https://www.uni-potsdam.de/de/studium/zugang/bewerbung-master"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.uni-potsdam.de/de/studium/zugang/bewerbung-master"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Current admissions requirements explicitly scoped winter2026/27; no winter2027/28 dates published. Summer2027 higher-semester deadline15Feb27 is not a new-entry route.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-be8a053c93eef1f9ad06",
+    "title": "MS (By Research) in Cognitive Science",
+    "institution": "Indian Institute of Technology Kanpur",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-b1f885d99da4960f3b1f",
+        "intake_label": "January 2027",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published 2026/27 application period/round.",
+        "notes": "January 2027 advertised department list omits Cognitive Science MSR and all MTech; cannot apply generic October16–November3 dates.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/pgadmission/"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.iitk.ac.in/doaa/pgadmission/"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Department2026 notice says closed; linked updates Google Doc not readable through web extraction. July2026 dates in archive not freshly established. Language threshold/domestic document checklist not verified. OIR annual autumn MTech dates are March20–April15 but old page has July2025 programme list; not treated as current 2027 window.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-e6881c2c07a7ea44de54",
+    "title": "MTech in Cognitive Systems",
+    "institution": "Indian Institute of Technology Kanpur",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-d72c02df7b0b7a61c064",
+        "intake_label": "January 2027",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published 2026/27 application period/round.",
+        "notes": "January 2027 advertised department list omits Cognitive Science MSR and all MTech; cannot apply generic October16–November3 dates.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/pgadmission/"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.iitk.ac.in/doaa/pgadmission/"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Department2026 notice says closed; linked updates Google Doc not readable through web extraction. July2026 dates in archive not freshly established. Language threshold/domestic document checklist not verified. OIR annual autumn MTech dates are March20–April15 but old page has July2025 programme list; not treated as current 2027 window.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-71dea2b1ebd5c27b6c90",
+    "title": "Master of Business Management, 180-point route",
+    "institution": "University of Auckland",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-0fb6e977b65f43f8cfc0",
+        "intake_label": "2027",
+        "cycle": "2027",
+        "round_label": "Main",
+        "applicant_scope": "International applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published 2027 application period/round.",
+        "notes": "Repeated explicit domestic-only restriction conflicts with template international date rows (Feb1/July1). Do not present those as usable applications.",
+        "source_urls": [
+          "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-business-management.html"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-business-management.html"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "International deadline rows contradict repeated domestic-only statements. Do not market as international study route. IELTS field N/A; detailed language/documents not verified.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-7d41497b2adde4f292c3",
+    "title": "MSc Informatics, Optimization",
+    "institution": "University of Bergen",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-74c40c4c3611fb70aae4",
+        "intake_label": "Next intake",
+        "cycle": "Not specified",
+        "round_label": "Main",
+        "applicant_scope": "Non-EU/EEA residing abroad",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published Not specified application period/round.",
+        "notes": "Explicit programme restriction and absence from non-EU programme list.",
+        "source_urls": [
+          "https://www.uib.no/en/studies/MAMN-INF/OP"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.uib.no/en/studies/MAMN-INF/OP"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Central applicants route restrictions retained; requirements minimums do not guarantee admission. No scholarship deadline inferred. Non-EU catalogue remains labelled2026/27 while central process is2027/28.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-dcf98da75fe194d3e628",
+    "title": "MSc Data Science & Analytics (project-based)",
+    "institution": "King Fahd University of Petroleum and Minerals",
+    "classification": "programme",
+    "availability_status": "not_offered",
+    "windows": [],
+    "notes": "No current programme application dates published. Do not infer annual offering; current catalogue supersedes older fee/delivery details.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-a0f536745e1b2f4cde43",
+    "title": "MSc Quantum Computing (project-based, HIVE)",
+    "institution": "King Fahd University of Petroleum and Minerals",
+    "classification": "programme",
+    "availability_status": "not_offered",
+    "windows": [],
+    "notes": "RELATED REVIEW p-49dd00e9288d3325cc23 (confirmed_same_award_ids_preserved): application endpoints not verified. See linked review evidence; scopes and identity match require attention. No current programme application dates published. Do not infer annual offering; current catalogue supersedes older fee/delivery details.",
+    "linked_review_updates": [
+      {
+        "from_programme_id": "p-49dd00e9288d3325cc23",
+        "relationship": "confirmed_same_award_ids_preserved",
+        "review_status": "reviewed",
+        "checked_at": "2026-10-31",
+        "windows": [
+          {
+            "deadline_semantics": "unspecified",
+            "semantics_review_required": false,
+            "id": "w-97bc17098b138fc0dcad",
+            "intake_label": "Upcoming semester not offered",
+            "cycle": "Current catalogue",
+            "round_label": "Main",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "window_type": "application",
+            "start_date": null,
+            "start_status": "not_published",
+            "end_date": null,
+            "end_status": "not_published",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "day",
+            "availability_status": "not_verified",
+            "window_status": "closed",
+            "evidence_note": "Programme headed CLOSED; central page says absence of Apply Now means not offered upcoming semester. MBA-only October-November dates do not apply.",
+            "notes": "",
+            "source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "evidence_origin": "official_review",
+            "safe_source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "excluded_source_urls": []
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "Minimum GPA 2.5/4; four-year qualifying bachelor or equivalent.",
+            "status": "verified",
+            "source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "evidence_origin": "official_review",
+            "safe_source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "excluded_source_urls": []
+          },
+          {
+            "category": "language",
+            "text": "IELTS 6, TOEFL iBT 70 or Duolingo 105; exemptions for KFUPM or degrees from USA, Canada, UK, Australia or New Zealand.",
+            "status": "verified",
+            "source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "evidence_origin": "official_review",
+            "safe_source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "excluded_source_urls": []
+          },
+          {
+            "category": "documents",
+            "text": "Degree and transcript, two references using professional emails, CV, ID, English evidence, one-page statement and two-minute introductory video; application fee.",
+            "status": "verified",
+            "source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "evidence_origin": "official_review",
+            "safe_source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "excluded_source_urls": []
+          },
+          {
+            "category": "prerequisites",
+            "text": "Four-year mathematics, physics, chemistry, computer engineering/science, software or electrical engineering degree; computer organisation/architecture, programming and linear algebra. Two-year HIVE includes campus attendance.",
+            "status": "verified",
+            "source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "evidence_origin": "official_review",
+            "safe_source_urls": [
+              "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text"
+            ],
+            "excluded_source_urls": []
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://ms.kfupm.edu.sa/?trk=public_post_main-feed-card-text",
+            "title": "King Fahd University of Petroleum and Minerals MSc Quantum Computing (project-based, HIVE)",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31",
+            "link_allowed": true,
+            "safety_status": "allowed",
+            "safety_reason": ""
+          },
+          {
+            "url": "https://ms.kfupm.edu.sa/documents/51/Cohort-Based_Programs_Rules_and_FAQ_Jnuary_2026_002.pdf",
+            "title": "King Fahd University of Petroleum and Minerals MSc Quantum Computing (project-based, HIVE)",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31",
+            "link_allowed": true,
+            "safety_status": "allowed",
+            "safety_reason": ""
+          },
+          {
+            "url": "https://ms.kfupm.edu.sa/",
+            "title": "King Fahd University of Petroleum and Minerals MSc Quantum Computing (project-based, HIVE)",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31",
+            "link_allowed": true,
+            "safety_status": "allowed",
+            "safety_reason": ""
+          }
+        ],
+        "notes": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. No current programme application dates published. Do not infer annual offering; current catalogue supersedes older fee/delivery details."
+      }
+    ]
+  },
+  {
+    "id": "p-de07d201b625a3d3f4c2",
+    "title": "MA Cognitive Science (with thesis)",
+    "institution": "Boğaziçi University",
+    "classification": "programme",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-25aafca12c91a1ba983b",
+        "intake_label": "Spring 2027",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme FAQ explicitly says no Spring admission. Central December 14–21, 2026 dates must not be applied to this programme.",
+        "notes": "",
+        "source_urls": [
+          "https://cogsci.bogazici.edu.tr/content/faq"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://cogsci.bogazici.edu.tr/content/faq"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Department pages timed out directly but official indexed content available; historical requirements labelled. Central page explicitly says Spring 2027 programme terms/quotas still forthcoming.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-9a02620ba1ac94c93604",
+    "title": "MA in Psychology (MAPC, ODL)",
+    "institution": "Indira Gandhi National Open University",
+    "classification": "research_lead",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-c9d267e69dba1406b041",
+        "intake_label": "Current/next intake",
+        "cycle": "Not specified",
+        "round_label": "Main",
+        "applicant_scope": "International students",
+        "mode": "full-time",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme explicitly not offered to international students.",
+        "notes": "",
+        "source_urls": [
+          "https://www.ignou.ac.in/schools/programme/MAPC"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.ignou.ac.in/schools/programme/MAPC"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Historical central ODL window retained with applicability caveat. No international eligibility claim.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-670fea8343e576a658be",
+    "title": "Master in Actuarial Science / Computational Sciences",
+    "institution": "Institut Teknologi Bandung",
+    "classification": "research_lead",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-ab8127ec2006256fb460",
+        "intake_label": "February2027 Actuarial Sciences ONLY",
+        "cycle": "2027/28",
+        "round_label": "Main",
+        "applicant_scope": "Local and non-local applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "OfficialSemester2/2026-27HTMLstatusrow dashes inall3rounds; notattachComputationaldates.",
+        "notes": "",
+        "source_urls": [
+          "https://portal.admission.itb.ac.id/registration/pascasarjana/prodi_buka"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://portal.admission.itb.ac.id/registration/pascasarjana/prodi_buka"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Collected row combines two distinct programmes; scope windows carefully. Indexed officialadmissioncontent extracted because livepageJS-only.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-45113f70bbf77c08dd26",
+    "title": "Master of Library and Information Studies",
+    "institution": "The University of the West Indies, Mona",
+    "classification": "research_lead",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-46ab29e2488ccf74d7c0",
+        "intake_label": "January2026 historical",
+        "cycle": "2025/26",
+        "round_label": "Main",
+        "applicant_scope": "Local and non-local applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "DepartmentexplicitlynotacceptingJanuary2026; replacementcurriculumplannedSemester1of2027/28.",
+        "notes": "",
+        "source_urls": [
+          "https://www.mona.uwi.edu/dlis/masters-library-and-information-studies-mlis"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.mona.uwi.edu/dlis/masters-library-and-information-studies-mlis"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Departmentnewcurriculumlaunch2027/28 conflictscentral2026offeringlist; retainexplicitJanuary2026nonoffering.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-fbbd9d121e4955a902b3",
+    "title": "Computational Colour and Spectral Imaging (COSI)",
+    "institution": "COSI consortium",
+    "classification": "research_lead",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-a683fcd048ae4557241c",
+        "intake_label": "2026 intake",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "Local and non-local applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Official indexed banner explicitly not accepting applications for2026.",
+        "notes": "",
+        "source_urls": [
+          "https://cosi-master.eu/application/apply",
+          "https://www.cosi-master.eu/scholarships"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://cosi-master.eu/application/apply",
+          "https://www.cosi-master.eu/scholarships"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-4f16f9c2ac649e188ce2",
+    "title": "Translation / Translation and Interpretation / Conference Interpretation masters",
+    "institution": "Middlebury Institute of International Studies at Monterey",
+    "classification": "research_lead",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-b3cb220fc0f73c4935dd",
+        "intake_label": "Future Middlebury intake",
+        "cycle": "Future Middlebury intake",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_verified",
+        "end_date": null,
+        "end_status": "not_verified",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Multi-award lead. Official Middlebury page explicitly states spring 2026 was final intake and currently enrolled students finish by summer 2027. Soka University of America starts successor programmes fall 2027, but these are different institution/awards and not merged. No new Middlebury application dates.",
+        "notes": "",
+        "source_urls": [
+          "https://www.middlebury.edu/institute/academics/degree-programs/translation-interpretation"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.middlebury.edu/institute/academics/degree-programs/translation-interpretation"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Multi-award lead. Official Middlebury page explicitly states spring 2026 was final intake and currently enrolled students finish by summer 2027. Soka University of America starts successor programmes fall 2027, but these are different institution/awards and not merged. No new Middlebury application dates.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-4273cd352954dd54a0b4",
+    "title": "MPS in Design for Interactions",
+    "institution": "Carnegie Mellon University",
+    "classification": "research_lead",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-8b6918b0e192f8f64928",
+        "intake_label": "Unspecified",
+        "cycle": null,
+        "round_label": "Main",
+        "applicant_scope": "External applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Currently not accepting outside applications to MPS. Generic MA/MDes dates not applied.",
+        "notes": "",
+        "source_urls": [
+          "https://www.design.cmu.edu/admissions/masters-program-admissions"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.design.cmu.edu/admissions/masters-program-admissions"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "External admission unavailable, not discontinued. This is not the separate MA conversion degree.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-737f09af18eabacce6da",
+    "title": "MSc Civil Engineering and Sustainable Design",
+    "institution": "Cyprus University of Technology",
+    "classification": "research_lead",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-188fcdb358f99f101c63",
+        "intake_label": "2026/27",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Explicitly no new admissions in 2026–27.",
+        "notes": "",
+        "source_urls": [
+          "https://www.cut.ac.cy/faculties/fet/ceg/programmes-of-study/postgraduate/msc-civil-engineering/?languageId=1"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.cut.ac.cy/faculties/fet/ceg/programmes-of-study/postgraduate/msc-civil-engineering/?languageId=1"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Greek-taught programme. Not offered 2026/27; 2027/28 dates and maths fit unresolved, not permanently discontinued.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-a9206811dec3ffd25586",
+    "title": "Master of Infrastructure Engineering and Management (Professional)",
+    "institution": "Deakin University",
+    "classification": "research_lead",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-b23ce246db87234b7e4d",
+        "intake_label": "2027",
+        "cycle": "2027",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_verified",
+        "end_date": null,
+        "end_status": "not_verified",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "2027 official handbook says continuing students only; final intake was teaching period 2,2024. No new application window should be displayed.",
+        "notes": "",
+        "source_urls": [
+          "https://handbook.deakin.edu.au/current-students-courses/course.php?course=S759&version=1&year=2027"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://handbook.deakin.edu.au/current-students-courses/course.php?course=S759&version=1&year=2027"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "2027 official handbook says continuing students only; final intake was teaching period 2,2024. No new application window should be displayed.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-49dd00e9288d3325cc23",
+    "title": "MSc Quantum Computing",
+    "institution": "King Fahd University of Petroleum and Minerals",
+    "classification": "research_lead",
+    "availability_status": "not_offered",
+    "windows": [],
+    "notes": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. No current programme application dates published. Do not infer annual offering; current catalogue supersedes older fee/delivery details.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-993104ebbd8d028e3951",
+    "title": "MS Mathematical Finance",
+    "institution": "Rutgers University",
+    "classification": "research_lead",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-ab46f8837b73f0b6142c",
+        "intake_label": "Future admission",
+        "cycle": "Future admission",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_verified",
+        "end_date": null,
+        "end_status": "not_verified",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Official Rutgers Mathematical Finance website explicitly announces programme discontinuance and no longer accepting applications. Suggested alternative programmes are different awards and must not inherit this identity.",
+        "notes": "",
+        "source_urls": [
+          "https://www.finmath.rutgers.edu/component/content/article/1181-recommended-additional-courses-2?Itemid=254&catid=2"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.finmath.rutgers.edu/component/content/article/1181-recommended-additional-courses-2?Itemid=254&catid=2"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Official Rutgers Mathematical Finance website explicitly announces programme discontinuance and no longer accepting applications. Suggested alternative programmes are different awards and must not inherit this identity.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-33f3f69454f97044f7c1",
+    "title": "Semiconductor Materials and Devices Engineering; Health Innovation and Entrepreneurship; Medical Science and Technology",
+    "institution": "UNIST",
+    "classification": "research_lead",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-9e2a7a37cd0a42561f9c",
+        "intake_label": "Spring 2027 second entry — Semiconductor Materials and Devices Engineering",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Semiconductor Materials and Devices Engineering: foreign applicants not admitted.",
+        "notes": "",
+        "source_urls": [
+          "https://admg-intl.unist.ac.kr/admg-eng/admission/secondary-electric.do?articleNo=285676&attachNo=591666&mode=download"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://admg-intl.unist.ac.kr/admg-eng/admission/secondary-electric.do?articleNo=285676&attachNo=591666&mode=download"
+        ],
+        "excluded_source_urls": []
+      },
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-59f227a6cb747e75f4af",
+        "intake_label": "Spring 2027 second entry — Medical Science and Technology",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Medical Science and Technology: standalone master not offered; integrated/doctoral only.",
+        "notes": "",
+        "source_urls": [
+          "https://admg-intl.unist.ac.kr/admg-eng/admission/secondary-electric.do?articleNo=285676&attachNo=591666&mode=download"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://admg-intl.unist.ac.kr/admg-eng/admission/secondary-electric.do?articleNo=285676&attachNo=591666&mode=download"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Multi-programme lead; not canonical identity. Three exclusions/gates must remain separately labelled, not promoted as clean maths routes.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-ef06a6512bb5a51ef5b8",
+    "title": "MS Health Informatics",
+    "institution": "University of California, Davis",
+    "classification": "research_lead",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-729a53d56916d8a5ca13",
+        "intake_label": "2027/28",
+        "cycle": "2027/28",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Official page now explicitly suspends admissions 2027/28, extending beyond archived 2026/27 note. Current students continue. No automatic 2028 reopening inferred.",
+        "notes": "",
+        "source_urls": [
+          "https://health.ucdavis.edu/phs/academic/mhi/admissions"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://health.ucdavis.edu/phs/academic/mhi/admissions"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Official page now explicitly suspends admissions 2027/28, extending beyond archived 2026/27 note. Current students continue. No automatic 2028 reopening inferred.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-5b738189ca3fe25becb3",
+    "title": "Master of Business Data Science",
+    "institution": "University of Otago",
+    "classification": "research_lead",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-1d71331074abcb618f0a",
+        "intake_label": "2026 onward",
+        "cycle": "2026 onward",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Official programme page says no longer offered from 2026. Surviving Apply link does not override discontinuation.",
+        "notes": "",
+        "source_urls": [
+          "https://www.otago.ac.nz/business/study/postgraduate/mbusdatasc/"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.otago.ac.nz/business/study/postgraduate/mbusdatasc/"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Official programme page says no longer offered from 2026. Surviving Apply link does not override discontinuation.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-62c238ea46a20eeb7235",
+    "title": "Master of Museum Studies",
+    "institution": "University of Queensland",
+    "classification": "research_lead",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-0ef95ffd3fcbe2c567d9",
+        "intake_label": "After Semester 2 2024",
+        "cycle": "After Semester 2 2024",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Official teach-out notice: last intake Semester 2 2024; Master and Graduate Certificate no longer available to commencing students.2026 course offerings are teach-out, not new admission.",
+        "notes": "",
+        "source_urls": [
+          "https://hass.uq.edu.au/museum-studies-completion-advice"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://hass.uq.edu.au/museum-studies-completion-advice"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Official teach-out notice: last intake Semester 2 2024; Master and Graduate Certificate no longer available to commencing students.2026 course offerings are teach-out, not new admission.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-0d0a13a7ae00d246fc22",
+    "title": "Master of Planning (MPLAN), online",
+    "institution": "University of Waterloo",
+    "classification": "research_lead",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-c93a1923aef01139c282",
+        "intake_label": "Unspecified",
+        "cycle": null,
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme page explicitly says MPLAN/GDip admissions paused.",
+        "notes": "",
+        "source_urls": [
+          "https://uwaterloo.ca/planning/graduate-studies/mplan-and-gdip-online"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://uwaterloo.ca/planning/graduate-studies/mplan-and-gdip-online"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "Admissions PAUSED supersedes residual annual February1/June1/October1 deadlines. Do not present those as available current rounds.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-a0b559ba531c08b0f2ce",
+    "title": "Master of Community Planning",
+    "institution": "Vancouver Island University",
+    "classification": "research_lead",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-39e9ee72ebdf491b7d77",
+        "intake_label": "Current / future intakes",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "discontinued",
+        "window_status": "unknown",
+        "evidence_note": "University cancelled programme effective 3 June 2025 and will offer no new intakes.",
+        "notes": "",
+        "source_urls": [
+          "https://www.viu.ca/programs/arts-humanities-social-sciences/master-community-planning"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.viu.ca/programs/arts-humanities-social-sciences/master-community-planning"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "University cancelled programme effective 3 June 2025 and will offer no new intakes.",
+    "linked_review_updates": []
+  },
+  {
+    "id": "p-95206d9b56575ee2f78b",
+    "title": "International MA in Economics",
+    "institution": "Yokohama National University",
+    "classification": "research_lead",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-a56575b0cd66e89be0bd",
+        "intake_label": "Current / future intakes",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "International MA suspended from 2023 intake; old 2022 and earlier catalogues are not current application opportunities.",
+        "notes": "",
+        "source_urls": [
+          "https://www.economics.ynu.ac.jp/igp/ma_program/index.html"
+        ],
+        "evidence_origin": "official_review",
+        "safe_source_urls": [
+          "https://www.economics.ynu.ac.jp/igp/ma_program/index.html"
+        ],
+        "excluded_source_urls": []
+      }
+    ],
+    "notes": "International MA suspended from 2023 intake; old 2022 and earlier catalogues are not current application opportunities.",
+    "linked_review_updates": []
+  }
+]

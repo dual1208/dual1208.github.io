@@ -1,5 +1,36 @@
 [
   {
+    "programme_id": "p-928870d71bea87eea580",
+    "field": "requirements/application_rounds",
+    "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+    "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; first2027round added, opening remains unknown.",
+    "source_urls": [
+      "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+    ],
+    "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+  },
+  {
+    "programme_id": "p-a4ee7f878a4660261b33",
+    "field": "availability",
+    "previous_claim": "MSL not accepting Fall 2027",
+    "current_claim": "MSL Taxation accepting Fall 2027; nonacceptance note is SJD-specific",
+    "source_urls": [
+      "https://www.law.georgetown.edu/admissions-aid/graduate-admissions/programs-for-non-lawyers/",
+      "https://www.law.georgetown.edu/admissions-aid/graduate-admissions/llm-degree-programs/m-s-l/"
+    ],
+    "reason": "Reviewed heading scope resolves misleading search snippet"
+  },
+  {
+    "programme_id": "p-ef06a6512bb5a51ef5b8",
+    "field": "availability_cycle",
+    "previous_claim": "Suspension 2026/27",
+    "current_claim": "Page currently states suspension 2027/28",
+    "source_urls": [
+      "https://health.ucdavis.edu/phs/academic/mhi/admissions"
+    ],
+    "reason": "Updated admissions notice"
+  },
+  {
     "programme_id": "p-d5a89df25d1a7a2e3a80",
     "field": "application_deadline",
     "previous_claim": "January intake annual October31 closing",
@@ -8,6 +39,26 @@
       "https://masters.smu.edu.sg/programme/master-in-economics"
     ],
     "reason": "Explicit current intake extension overrides annual rule."
+  },
+  {
+    "programme_id": "p-a183dc1596c5671b483b",
+    "field": "requirements",
+    "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+    "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; undated, no2027promotion.",
+    "source_urls": [
+      "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html"
+    ],
+    "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+  },
+  {
+    "programme_id": "p-4bf749be6a700ce450ca",
+    "field": "requirements",
+    "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+    "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; undated, no2027promotion.",
+    "source_urls": [
+      "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html"
+    ],
+    "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
   },
   {
     "programme_id": "p-6f16fbd221989851370c",
@@ -49,6 +100,57 @@
       "https://www.gs.cuhk.edu.hk/admissions/application-deadline"
     ],
     "reason": "Current central schedule differs from archived hardware claim; department source inaccessible."
+  },
+  {
+    "programme_id": "p-76f0685be56f58535bb4",
+    "field": "requirements/application_rounds",
+    "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+    "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; first2027round added, opening remains unknown.",
+    "source_urls": [
+      "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+    ],
+    "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+  },
+  {
+    "programme_id": "p-b883a6fc4658877d172e",
+    "field": "title",
+    "previous_claim": "MSc Urban Spatial Science",
+    "current_claim": "MSc Urban and Spatial Data Science (2027 entry)",
+    "source_urls": [
+      "https://www.ucl.ac.uk/bartlett/casa/study/careers-research-simulation-modelling-and-data-science",
+      "https://www.ucl.ac.uk/study/prospective-students/graduate/courses/urban-and-spatial-data-science-msc"
+    ],
+    "reason": "Official department link under historical title resolves to renamed 2027 programme."
+  },
+  {
+    "programme_id": "p-b54c1680517bda93a14a",
+    "field": "application_rounds",
+    "previous_claim": "December 1 and February 1 initial rounds",
+    "current_claim": "January 15 and March 1; December 1 funding recommendation",
+    "source_urls": [
+      "https://knowlton.osu.edu/master-city-and-regional-planning-application-process"
+    ],
+    "reason": "Fresh official programme page explicitly changed round dates."
+  },
+  {
+    "programme_id": "p-2bbc281c83f2f01f11cd",
+    "field": "eligibility",
+    "previous_claim": "Historical collected programme lead; mathematics eligibility unconfirmed",
+    "current_claim": "Natural Sciences and Engineering bachelor holders explicitly excluded",
+    "source_urls": [
+      "https://www.mundusmapp.org/admissions-requirements/"
+    ],
+    "reason": "Current official requirements add an express degree-field exclusion."
+  },
+  {
+    "programme_id": "p-8395557c5a810d1f5f9d",
+    "field": "programme_title",
+    "previous_claim": "Master of Public Administration (historical 2011 source)",
+    "current_claim": "Master of Public and Municipal Administration (MPMA), current catalogue",
+    "source_urls": [
+      "https://www.kimep.kz/about/files/2025/07/Catalog-2025-2026_final.pdf"
+    ],
+    "reason": "Catalogue programme history explicitly links current MPMA to prior MPA graduates."
   },
   {
     "programme_id": "p-4b9a1ac1270bb4375388",

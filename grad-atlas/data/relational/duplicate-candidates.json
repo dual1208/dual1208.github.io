@@ -4,5 +4,131 @@
     "duplicate_of": "p-aede8c6174ea7660f45e",
     "evidence_note": "Confirmed same award, official registry URL and intake as canonical ID; aliases preserved, not separate programme tracks.",
     "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-c63c804c78550584687d",
+    "duplicate_of": "p-54187c88888bd65ca9f9",
+    "evidence_note": " Same BU LEAP route; alias retained. FAQ freshly rechecked October 31 2026.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-e27a5cf41199aafaa42e",
+    "duplicate_of": "p-25aeef792e76a27ac937",
+    "evidence_note": "Duplicate historical lead for same IIT Bombay MPP award. Proposed alias_of p-25aeef792e76a27ac937. ",
+    "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-b9df93e044adfecb8146",
+    "duplicate_of": "p-9fa3b0db1f2041c13a9e",
+    "evidence_note": "Proposed duplicate of identified MSc/Master RemoteSensingGIS; retain conditional experienced-applicant classification.",
+    "resolution": "confirmed_same_combined_route_ids_preserved"
+  },
+  {
+    "programme_id": "p-a65dc064f67717e5b7bd",
+    "duplicate_of": "p-63c38c09d47b1be7ae82",
+    "evidence_note": "Proposed duplicate of p-63c38c09d47b1be7ae82. Distinct from Kyushu IGSES energy/environment master.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-4ecd3687e8d1ac811ea7",
+    "duplicate_of": "p-cd6752ff38f73d831921",
+    "evidence_note": "Archived follow-up note names the same award. Proposed alias; evidence reused from canonical reviewed programme. ",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-6746300eae64663515f2",
+    "duplicate_of": "p-d9c5f51e0df565999fcc",
+    "evidence_note": "Proposed alias to canonical KIMEP Economics p-d9c5f51e0df565999fcc; historical central guide alone cannot settle current economics admission.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-2562aa4a82884e2c96f1",
+    "duplicate_of": "p-fb236df1ba7db8c5ea5d",
+    "evidence_note": "Alias proposal: source URLs identify same award/route as existing programme; originating research lead retained, not automatically merged. Two sequential qualifications; domestic honours deadline must not be presented as an international or direct-master deadline.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-26946c35bbac935972df",
+    "duplicate_of": "p-80d5f44596a335fed33e",
+    "evidence_note": "Alias proposal: source URLs identify same award/route as existing programme; originating research lead retained, not automatically merged. International intake/country-specific calendar and document requirements need follow-up; no invented universal deadline.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-11fc63cc4feac9c51752",
+    "duplicate_of": "p-691f29f88173eac51d25",
+    "evidence_note": "Official-domain search found 2023 energy-centre brochure, not a current programme admissions page. No current eligibility/calendar asserted. Same named Aberdeen award lead as p-691f29f88173eac51d25.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-be3f28b4869f6ace7796",
+    "duplicate_of": "p-31aeedf127886c7e0c4a",
+    "evidence_note": "Lincoln Finance note aliases same named Master of Business in Finance; source access blocked. Official programme retrieval timed out; current eligibility and exact dates unresolved.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-93a466ea708f6662db3c",
+    "duplicate_of": "p-766cb1a3549fd73f09db",
+    "evidence_note": "Alias proposal: source URLs identify same award/route as existing programme; originating research lead retained, not automatically merged. Domestic dates only; international view not yet verified. Dynamic academic admission criteria absent from extracted content for some courses; handbook2027 inaccessible. Architecture300-point start-year only; no midyear window assigned.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-7dc089a36b14df4daad3",
+    "duplicate_of": "p-885fafd87860e82d1aea",
+    "evidence_note": "Alias proposal: source URLs identify same award/route as existing programme; originating research lead retained, not automatically merged. Official public Studyinfo criteria retrieved unauthenticated. Metadata published but LET also carries preview=true/public=false flags; confirm final portal criteria before submission. Business entry is economics/business award, not engineering/IS tracks.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-10254dc542fe307c5762",
+    "duplicate_of": "p-79ac2ed3b37259ef7e74",
+    "evidence_note": "Official admission page requires applying directly to named study option (astrophysics, applied mathematics/risk, bioscience, chemistry, geoscience, imaging/biomedical computing, mechanics, physics). Lead does not specify option; no option-specific prerequisites or dates borrowed.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-9c21fd6ad7c145d63416",
+    "duplicate_of": "p-29f440761ba73362d91f",
+    "evidence_note": "Official course says applications open with deadline 6 December 2026 at 23:45; exact opening date and cutoff timezone not specified. Intake year not explicitly established from deadline alone. Same CHRIST two-year MSc Data Science programme and official course URL as existing identity; alias proposal only.",
+    "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-41e7f723c3b49118976a",
+    "duplicate_of": "p-3b544f13df9044b73d70",
+    "evidence_note": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. 2027 programme requirements not verified; do not infer discontinuation from unrendered template.",
+    "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-6658b0af0b42d59a69b7",
+    "duplicate_of": "p-a8e54748713b537f9d2d",
+    "evidence_note": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. 19.7 MB raster guide exceeds web fetch; downloaded official PDF, OCR and visually inspected schedule. No English-only degree guarantee.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-7d38c279cec7a58867e9",
+    "duplicate_of": "p-7c3cad771fcfe626baac",
+    "evidence_note": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. Two examination routes retained. No2027 rollover. Full foreign direct-admission route and independent foreign deadlines not yet established.",
+    "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-49dd00e9288d3325cc23",
+    "duplicate_of": "p-a0f536745e1b2f4cde43",
+    "evidence_note": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. No current programme application dates published. Do not infer annual offering; current catalogue supersedes older fee/delivery details.",
+    "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-f4627a85201e170cccc3",
+    "duplicate_of": "p-d373880935a41e828af9",
+    "evidence_note": "Alias proposal: source URLs identify same award/route as existing programme; originating research lead retained, not automatically merged. Historical closed assertion not silently retained as current. Exact 2027 application calendar remains unpublished on inspected programme pages.",
+    "resolution": "review_pending_not_merged"
+  },
+  {
+    "programme_id": "p-928870d71bea87eea580",
+    "duplicate_of": "p-76f0685be56f58535bb4",
+    "evidence_note": "Confirmed same-award alias of p-76f0685be56f58535bb4; original ID retained. 2027 requirements and three round endings established from official indexed course text. Direct page still times out. Exact opening date, complete application-document checklist and individual eligibility remain unresolved. Admission is competitive. Printed October31AEST retained with daylight-saving caveat; no silent AEDT substitution.",
+    "resolution": "confirmed_same_award_ids_preserved"
+  },
+  {
+    "programme_id": "p-9f15b4cc334967ee47f9",
+    "duplicate_of": "p-876408f34e90e66880d9",
+    "evidence_note": "Official 2026 Calendar verifies MIS 180-point award and entry rules. Application pages return 410 Gone; exact opening/closing and 2027 rules unverified. Same MIS award as existing record; pending alias only.",
+    "resolution": "review_pending_not_merged"
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "programme_id": "p-8a4fbdbd4fa6573829c0",
+    "title": "MSc Sustainable Agriculture and Food Security",
+    "source_url": "https://www.rau.ac.uk/courses/postgraduate/msc-sustainable-agriculture-and-food-security",
+    "checked_at": "2026-10-31",
+    "reason": "Imported title contained concatenated field dumps. Exact programme title verified on official page; original record and ID retained."
+  },
+  {
+    "programme_id": "p-3acf018b317e0cc24ed0",
+    "title": "MS Sustainable Food Systems",
+    "source_url": "https://degrees.asu.edu/masters-phd/major/ASU00/SUSUSFSMS/sustainable-food-systems-ms",
+    "checked_at": "2026-10-31",
+    "reason": "Imported title contained concatenated field dumps. Exact programme title verified on official page; original record and ID retained."
+  },
+  {
+    "programme_id": "p-bb528dec18657774147a",
+    "title": "Master of Arts in Food Studies (MAFS)",
+    "source_url": "https://www.chatham.edu/academics/graduate/food-studies/index.html",
+    "checked_at": "2026-10-31",
+    "reason": "Imported title contained concatenated field dumps. Exact programme title verified on official page; original record and ID retained."
+  }
+]

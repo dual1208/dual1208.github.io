@@ -1,0 +1,625 @@
+[
+  {
+    "id": "p-10462c16ce7b235a574d",
+    "title": "MSc Science of Learning",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-038c7c6c794bd881b417",
+        "intake_label": "August 2027",
+        "cycle": "2027",
+        "round_label": "Main",
+        "applicant_scope": "Local and non-local applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Explicitly excluded for full-time and part-time in August2027 exercise.",
+        "notes": "",
+        "source_urls": [
+          "https://www.ntu.edu.sg/nie/admissions/graduate-education/graduate-programmes-application-exercise"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-4e9c02fb742ecd0f6e03",
+    "title": "MSc Cognitive Systems: Language, Learning and Reasoning",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-08fff0de52e6e8acf763",
+        "intake_label": "Summer 2027 first semester",
+        "cycle": "2027",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme deadline table explicitly says application not possible for first-semester summer2027.",
+        "notes": "",
+        "source_urls": [
+          "https://www.uni-potsdam.de/de/studium/zugang/bewerbung-master"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-be8a053c93eef1f9ad06",
+    "title": "MS (By Research) in Cognitive Science",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-b1f885d99da4960f3b1f",
+        "intake_label": "January 2027",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published 2026/27 application period/round.",
+        "notes": "January 2027 advertised department list omits Cognitive Science MSR and all MTech; cannot apply generic October16\u2013November3 dates.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/pgadmission/"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-e6881c2c07a7ea44de54",
+    "title": "MTech in Cognitive Systems",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-d72c02df7b0b7a61c064",
+        "intake_label": "January 2027",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published 2026/27 application period/round.",
+        "notes": "January 2027 advertised department list omits Cognitive Science MSR and all MTech; cannot apply generic October16\u2013November3 dates.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/pgadmission/"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-71dea2b1ebd5c27b6c90",
+    "title": "Master of Business Management, 180-point route",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-0fb6e977b65f43f8cfc0",
+        "intake_label": "2027",
+        "cycle": "2027",
+        "round_label": "Main",
+        "applicant_scope": "International applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published 2027 application period/round.",
+        "notes": "Repeated explicit domestic-only restriction conflicts with template international date rows (Feb1/July1). Do not present those as usable applications.",
+        "source_urls": [
+          "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-business-management.html"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-7d41497b2adde4f292c3",
+    "title": "MSc Informatics, Optimization",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-74c40c4c3611fb70aae4",
+        "intake_label": "Next intake",
+        "cycle": "Not specified",
+        "round_label": "Main",
+        "applicant_scope": "Non-EU/EEA residing abroad",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Published Not specified application period/round.",
+        "notes": "Explicit programme restriction and absence from non-EU programme list.",
+        "source_urls": [
+          "https://www.uib.no/en/studies/MAMN-INF/OP"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-dcf98da75fe194d3e628",
+    "title": "MSc Data Science & Analytics (project-based)",
+    "availability_status": "not_offered",
+    "windows": []
+  },
+  {
+    "id": "p-a0f536745e1b2f4cde43",
+    "title": "MSc Quantum Computing (project-based, HIVE)",
+    "availability_status": "not_offered",
+    "windows": []
+  },
+  {
+    "id": "p-de07d201b625a3d3f4c2",
+    "title": "MA Cognitive Science (with thesis)",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-25aafca12c91a1ba983b",
+        "intake_label": "Spring 2027",
+        "cycle": "2026/27",
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme FAQ explicitly says no Spring admission. Central December 14\u201321, 2026 dates must not be applied to this programme.",
+        "notes": "",
+        "source_urls": [
+          "https://cogsci.bogazici.edu.tr/content/faq"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-670fea8343e576a658be",
+    "title": "Master in Actuarial Science / Computational Sciences",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-ab8127ec2006256fb460",
+        "intake_label": "February2027 Actuarial Sciences ONLY",
+        "cycle": "2027/28",
+        "round_label": "Main",
+        "applicant_scope": "Local and non-local applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "day",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "OfficialSemester2/2026-27HTMLstatusrow dashes inall3rounds; notattachComputationaldates.",
+        "notes": "",
+        "source_urls": [
+          "https://portal.admission.itb.ac.id/registration/pascasarjana/prodi_buka"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-4f16f9c2ac649e188ce2",
+    "title": "Translation / Translation and Interpretation / Conference Interpretation masters",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-481115dc33d119d037ad",
+        "intake_label": "Future Middlebury intake",
+        "cycle": "Future Middlebury intake",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Multi-award lead. Official Middlebury page explicitly states spring2026 was final intake and currently enrolled students finish by summer2027. Soka University of America starts successor programmes fall2027, but these are different institution/awards and not merged. No new Middlebury application dates.",
+        "notes": "",
+        "source_urls": [
+          "https://www.middlebury.edu/institute/academics/degree-programs/translation-interpretation"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-4273cd352954dd54a0b4",
+    "title": "MPS in Design for Interactions",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "final_closure",
+        "semantics_review_required": false,
+        "id": "w-5ad0f4682f5b69b77c96",
+        "intake_label": "Unspecified",
+        "cycle": null,
+        "round_label": "Main",
+        "applicant_scope": "External applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Currently not accepting outside applications to MPS. Generic MA/MDes dates not applied.",
+        "notes": "",
+        "source_urls": [
+          "https://www.design.cmu.edu/admissions/masters-program-admissions"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-737f09af18eabacce6da",
+    "title": "MSc Civil Engineering and Sustainable Design",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-188fcdb358f99f101c63",
+        "intake_label": "2026/27",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Explicitly no new admissions in 2026\u201327.",
+        "notes": "",
+        "source_urls": [
+          "https://www.cut.ac.cy/faculties/fet/ceg/programmes-of-study/postgraduate/msc-civil-engineering/?languageId=1"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-a9206811dec3ffd25586",
+    "title": "Master of Infrastructure Engineering and Management (Professional)",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-be634b88f35f44e25953",
+        "intake_label": "2027",
+        "cycle": "2027",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "2027 official handbook says continuing students only; final intake was teaching period2,2024. No new application window should be displayed.",
+        "notes": "",
+        "source_urls": [
+          "https://handbook.deakin.edu.au/current-students-courses/course.php?course=S759&version=1&year=2027"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-49dd00e9288d3325cc23",
+    "title": "MSc Quantum Computing",
+    "availability_status": "not_offered",
+    "windows": []
+  },
+  {
+    "id": "p-993104ebbd8d028e3951",
+    "title": "MS Mathematical Finance",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-b264c0b6dbc36a795f4f",
+        "intake_label": "Future admission",
+        "cycle": "Future admission",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Official Rutgers Mathematical Finance website explicitly announces programme discontinuance and no longer accepting applications. Suggested alternative programmes are different awards and must not inherit this identity.",
+        "notes": "",
+        "source_urls": [
+          "https://www.finmath.rutgers.edu/component/content/article/1181-recommended-additional-courses-2?Itemid=254&catid=2"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-33f3f69454f97044f7c1",
+    "title": "Semiconductor Materials and Devices Engineering; Health Innovation and Entrepreneurship; Medical Science and Technology",
+    "availability_status": "not_verified",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-9e2a7a37cd0a42561f9c",
+        "intake_label": "Spring 2027 second entry \u2014 Semiconductor Materials and Devices Engineering",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Semiconductor Materials and Devices Engineering: foreign applicants not admitted.",
+        "notes": "",
+        "source_urls": [
+          "https://admg-intl.unist.ac.kr/admg-eng/admission/secondary-electric.do?articleNo=285676&attachNo=591666&mode=download"
+        ],
+        "evidence_origin": "official_review"
+      },
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-59f227a6cb747e75f4af",
+        "intake_label": "Spring 2027 second entry \u2014 Medical Science and Technology",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Medical Science and Technology: standalone master not offered; integrated/doctoral only.",
+        "notes": "",
+        "source_urls": [
+          "https://admg-intl.unist.ac.kr/admg-eng/admission/secondary-electric.do?articleNo=285676&attachNo=591666&mode=download"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-0d0a13a7ae00d246fc22",
+    "title": "Master of Planning (MPLAN), online",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "final_closure",
+        "semantics_review_required": false,
+        "id": "w-9bbc03556e4be793f44e",
+        "intake_label": "Unspecified",
+        "cycle": null,
+        "round_label": "Main",
+        "applicant_scope": "All applicants",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "Programme page explicitly says MPLAN/GDip admissions paused.",
+        "notes": "",
+        "source_urls": [
+          "https://uwaterloo.ca/planning/graduate-studies/mplan-and-gdip-online"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-a0b559ba531c08b0f2ce",
+    "title": "Master of Community Planning",
+    "availability_status": "discontinued",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-39e9ee72ebdf491b7d77",
+        "intake_label": "Current / future intakes",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "discontinued",
+        "window_status": "unknown",
+        "evidence_note": "University cancelled programme effective 3 June 2025 and will offer no new intakes.",
+        "notes": "",
+        "source_urls": [
+          "https://www.viu.ca/programs/arts-humanities-social-sciences/master-community-planning"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  },
+  {
+    "id": "p-95206d9b56575ee2f78b",
+    "title": "International MA in Economics",
+    "availability_status": "not_offered",
+    "windows": [
+      {
+        "deadline_semantics": "unspecified",
+        "semantics_review_required": false,
+        "id": "w-a56575b0cd66e89be0bd",
+        "intake_label": "Current / future intakes",
+        "cycle": "Unspecified",
+        "round_label": "Unspecified",
+        "applicant_scope": "Unspecified",
+        "mode": "Unspecified",
+        "window_type": "application",
+        "start_date": null,
+        "start_status": "not_published",
+        "end_date": null,
+        "end_status": "not_published",
+        "cutoff_time": null,
+        "timezone": null,
+        "timezone_basis": "not stated",
+        "date_precision": "unknown",
+        "availability_status": "not_offered",
+        "window_status": "unknown",
+        "evidence_note": "International MA suspended from 2023 intake; old 2022 and earlier catalogues are not current application opportunities.",
+        "notes": "",
+        "source_urls": [
+          "https://www.economics.ynu.ac.jp/igp/ma_program/index.html"
+        ],
+        "evidence_origin": "official_review"
+      }
+    ]
+  }
+]

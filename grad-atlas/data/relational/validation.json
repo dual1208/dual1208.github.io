@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "check_count": 16862,
+  "check_count": 34951,
   "summary": [
     "Integrity, foreign keys, full input preservation, unique export IDs",
     "Every identity has explicit application and requirements outcome",
@@ -16,77 +16,159 @@
   },
   "files": {
     "programmes.sqlite": {
-      "bytes": 22773760,
-      "sha256": "6d2a3f8278d2cc4544436f99ea82609dfd727e2364b19fc750767d1e245049c2"
+      "bytes": 27238400,
+      "sha256": "33734380253b28a16d2ce524d1b93f0458f57d0774a075b230c84581fc1f07da"
     },
     "table.json": {
-      "bytes": 4965014,
-      "sha256": "1f9fd0e2b089c426ae816029d9ad7ec0e67c412a8c4c81ddc3f66103966f2d3a"
+      "bytes": 7538242,
+      "sha256": "ce06e45aaa4c108866b8b9da3a6ed33fd86f193e28e540c4b45aa06baa9396e9"
     }
   },
   "coverage": {
     "all_identities": {
-      "inspected": 647,
-      "reviews": {
-        "blocked": 3,
-        "partial": 331,
-        "reviewed": 313,
-        "unverified": 639
+      "exact_date_pairs": {
+        "application_windows": 849,
+        "identities_by_deadline_semantics": {
+          "final_closure": 67,
+          "funding_consideration": 6,
+          "priority_consideration": 10,
+          "round_deadline": 42,
+          "unspecified": 346
+        },
+        "note": "All evidenced pairs, not necessarily final application closure; per-semantic identity counts may overlap.",
+        "programme_identities": 454,
+        "windows_by_deadline_semantics": {
+          "final_closure": 114,
+          "funding_consideration": 6,
+          "priority_consideration": 13,
+          "round_deadline": 129,
+          "unspecified": 587
+        }
       },
+      "firm_application_pairs": {
+        "application_windows": 243,
+        "definition": "Only explicitly reviewed final_closure or round_deadline; unspecified is never assumed final.",
+        "programme_identities": 106
+      },
+      "inspected": 1254,
+      "outcomes_recorded": 1286,
+      "reviews": {
+        "blocked": 21,
+        "partial": 688,
+        "reviewed": 545,
+        "unverified": 32
+      },
+      "semantics_review_required_windows": 14,
       "total": 1286,
-      "with_reviewed_exact_start_and_end": 299,
-      "with_verified_requirements": 633
+      "unresolved_identity_outcomes": 63,
+      "with_reviewed_exact_start_and_end": 454,
+      "with_verified_requirements": 1176,
+      "without_review_outcome": 0
     },
-    "confirmed_aliases": 1,
-    "duplicate_candidates_pending": 0,
+    "confirmed_aliases": 8,
+    "duplicate_candidates_pending": 14,
     "end_statuses": {
-      "annual": 231,
-      "conflicting": 14,
-      "exact": 871,
-      "not_published": 204,
-      "not_verified": 692,
-      "rolling": 17
+      "annual": 443,
+      "conflicting": 26,
+      "exact": 1487,
+      "not_published": 366,
+      "not_verified": 181,
+      "rolling": 39
     },
     "lead_only": {
-      "inspected": 0,
-      "reviews": {
-        "blocked": 0,
-        "partial": 0,
-        "reviewed": 0,
-        "unverified": 411
+      "exact_date_pairs": {
+        "application_windows": 155,
+        "identities_by_deadline_semantics": {
+          "final_closure": 39,
+          "priority_consideration": 3,
+          "round_deadline": 19,
+          "unspecified": 27
+        },
+        "note": "All evidenced pairs, not necessarily final application closure; per-semantic identity counts may overlap.",
+        "programme_identities": 85,
+        "windows_by_deadline_semantics": {
+          "final_closure": 62,
+          "priority_consideration": 3,
+          "round_deadline": 47,
+          "unspecified": 43
+        }
       },
+      "firm_application_pairs": {
+        "application_windows": 109,
+        "definition": "Only explicitly reviewed final_closure or round_deadline; unspecified is never assumed final.",
+        "programme_identities": 58
+      },
+      "inspected": 379,
+      "outcomes_recorded": 411,
+      "reviews": {
+        "blocked": 18,
+        "partial": 293,
+        "reviewed": 68,
+        "unverified": 32
+      },
+      "semantics_review_required_windows": 0,
       "total": 411,
-      "with_reviewed_exact_start_and_end": 0,
-      "with_verified_requirements": 0
+      "unresolved_identity_outcomes": 63,
+      "with_reviewed_exact_start_and_end": 85,
+      "with_verified_requirements": 312,
+      "without_review_outcome": 0
     },
     "positive_programmes": {
-      "inspected": 647,
+      "exact_date_pairs": {
+        "application_windows": 694,
+        "identities_by_deadline_semantics": {
+          "final_closure": 28,
+          "funding_consideration": 6,
+          "priority_consideration": 7,
+          "round_deadline": 23,
+          "unspecified": 319
+        },
+        "note": "All evidenced pairs, not necessarily final application closure; per-semantic identity counts may overlap.",
+        "programme_identities": 369,
+        "windows_by_deadline_semantics": {
+          "final_closure": 52,
+          "funding_consideration": 6,
+          "priority_consideration": 10,
+          "round_deadline": 82,
+          "unspecified": 544
+        }
+      },
+      "firm_application_pairs": {
+        "application_windows": 134,
+        "definition": "Only explicitly reviewed final_closure or round_deadline; unspecified is never assumed final.",
+        "programme_identities": 48
+      },
+      "inspected": 875,
+      "outcomes_recorded": 875,
       "reviews": {
         "blocked": 3,
-        "partial": 331,
-        "reviewed": 313,
-        "unverified": 228
+        "partial": 395,
+        "reviewed": 477,
+        "unverified": 0
       },
+      "semantics_review_required_windows": 14,
       "total": 875,
-      "with_reviewed_exact_start_and_end": 299,
-      "with_verified_requirements": 633
+      "unresolved_identity_outcomes": 0,
+      "with_reviewed_exact_start_and_end": 369,
+      "with_verified_requirements": 864,
+      "without_review_outcome": 0
     },
-    "programme_identities_without_resolved_source": 57,
-    "programmes_with_reviewed_exact_start_and_end": 299,
-    "programmes_with_verified_requirements": 633,
+    "programme_identities_without_resolved_source": 23,
+    "programmes_with_reviewed_exact_start_and_end": 454,
+    "programmes_with_verified_requirements": 1176,
     "reviews": {
-      "blocked": 3,
-      "partial": 331,
-      "reviewed": 313,
-      "unverified": 639
+      "blocked": 21,
+      "partial": 688,
+      "reviewed": 545,
+      "unverified": 32
     },
     "start_statuses": {
-      "annual": 160,
-      "conflicting": 5,
-      "exact": 561,
-      "not_published": 565,
-      "not_verified": 678,
-      "rolling": 60
+      "annual": 323,
+      "conflicting": 10,
+      "exact": 887,
+      "not_published": 1064,
+      "not_verified": 180,
+      "rolling": 78
     }
   }
 }

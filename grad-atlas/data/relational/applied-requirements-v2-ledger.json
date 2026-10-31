@@ -1,0 +1,1008 @@
+{
+  "patch": "approved-requirements-v2",
+  "count": 4,
+  "records": [
+    {
+      "programme_id": "p-928870d71bea87eea580",
+      "review_file": "queue-1-tail.json",
+      "approval": "Parent and independent auditor approved2026-10-31; four-record bounded v2",
+      "before": {
+        "programme_id": "p-928870d71bea87eea580",
+        "review_status": "partial",
+        "checked_at": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology",
+            "title": "Direct source timed out; official search-index excerpt inspected",
+            "access_status": "blocked",
+            "checked_at": "2026-10-31"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 2",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-10-31",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEST (as printed; daylight-saving conflict)",
+            "timezone_basis": "Printed official search-index excerpt",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant."
+          },
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 3",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-11-30",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEDT",
+            "timezone_basis": "Printed official search-index excerpt",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant."
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "Full requirements not reverified because direct official page timed out; archived requirements retained separately.",
+            "status": "not_verified",
+            "source_urls": []
+          }
+        ],
+        "notes": "Same named award and shared official programme source as reviewed canonical record; alias proposal, not automatic merge. Only official search-index deadline excerpt accessible; opening, first round and requirements remain unverified in this pass.",
+        "duplicate_of": "p-76f0685be56f58535bb4"
+      },
+      "after": {
+        "programme_id": "p-928870d71bea87eea580",
+        "review_status": "partial",
+        "checked_at": "2026-10-31T10:34:18Z",
+        "sources": [
+          {
+            "url": "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology",
+            "title": "UTAS2027 Speech Pathology official indexed course requirements",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31T10:34:18Z",
+            "access_method": "official_search_index",
+            "direct_fetch_status": "timeout"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 1",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-09-30",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEST (UTC+10, expressly printed)",
+            "timezone_basis": "Official indexed text explicitly prints AEST; no geographic/DST substitution",
+            "date_precision": "day",
+            "window_status": "closed",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "2027 course official indexed text: first round closes30September2026 at23:59AEST. Direct course fetch timed out.",
+            "notes": "Exact opening date not established. Printed AEST retained.",
+            "deadline_semantics": "round_deadline"
+          },
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 2",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-10-31",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEST (UTC+10, as printed; daylight-saving conflict)",
+            "timezone_basis": "Official indexed text explicitly prints AEST; do not substitute Hobart AEDT",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "Printed AEST conflicts with usual Hobart daylight saving on31October. Retain printed label, do not silently convert or derive a local deadline instant.",
+            "deadline_semantics": "round_deadline"
+          },
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 3",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-11-30",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEDT",
+            "timezone_basis": "Printed official search-index excerpt",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant.",
+            "deadline_semantics": "final_closure"
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "2027 course page: International entry: bachelor degree and minimum GPA 5.0; highest eligible GPA used for ranking if multiple. Admission competitive.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 course page",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          },
+          {
+            "category": "prerequisites",
+            "text": "2027 course page: Within preceding 10 years, equivalent of one 12.5-credit-point unit each in human anatomy (head, neck and thorax), linguistics and phonetics, and research methods.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 course page",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          },
+          {
+            "category": "language",
+            "text": "2027 international requirements: IELTS Academic 7.0 overall and each band, no older than two years at expected commencement; alternatively an Australian course accredited by the relevant professional body, or relevant tertiary qualification in English in Australia/equivalent within preceding 24 months.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 international requirements",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          },
+          {
+            "category": "placement",
+            "text": "2027 course page: Compulsory placements require College Safety in Practice compliance before first-semester census date; separate from admission application.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 course page",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          }
+        ],
+        "notes": "Confirmed same-award alias of p-76f0685be56f58535bb4; original ID retained. 2027 requirements and three round endings established from official indexed course text. Direct page still times out. Exact opening date, complete application-document checklist and individual eligibility remain unresolved. Admission is competitive. Printed October31AEST retained with daylight-saving caveat; no silent AEDT substitution.",
+        "duplicate_of": "p-76f0685be56f58535bb4",
+        "corrections": [
+          {
+            "field": "requirements/application_rounds",
+            "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+            "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; first2027round added, opening remains unknown.",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+          }
+        ]
+      }
+    },
+    {
+      "programme_id": "p-a183dc1596c5671b483b",
+      "review_file": "queue-3.json",
+      "approval": "Parent and independent auditor approved2026-10-31; four-record bounded v2",
+      "before": {
+        "programme_id": "p-a183dc1596c5671b483b",
+        "review_status": "partial",
+        "checked_at": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          },
+          {
+            "url": "https://www.sydney.edu.au/study/applying/application-dates.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          },
+          {
+            "url": "https://www.sydney.edu.au/handbooks/archive/2024/architecture/postgraduate/interaction_design/course_resolutions.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJanuary31 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJuly15 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesDecember18 prior year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesMay29 commencing year.",
+            "notes": ""
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "Historical2024: bachelor credit average, embedded diploma, or embedded certificateWAM70. Current admissions body unavailable.",
+            "status": "not_verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/handbooks/archive/2024/architecture/postgraduate/interaction_design/course_resolutions.html"
+            ]
+          },
+          {
+            "category": "language",
+            "text": "Current programme-specific English threshold not verified.",
+            "status": "not_verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html"
+            ]
+          }
+        ],
+        "notes": "Central annual calendar only; course pages render limited shell so current intake availability/overrides remain not_verified. No annual rule instantiated to exact2027 dates."
+      },
+      "after": {
+        "programme_id": "p-a183dc1596c5671b483b",
+        "review_status": "partial",
+        "checked_at": "2026-10-31T10:34:18Z",
+        "sources": [
+          {
+            "url": "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html",
+            "title": "University of Sydney undated official indexed course requirements",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31T10:34:18Z",
+            "access_method": "official_search_index",
+            "direct_fetch_status": "limited_shell"
+          },
+          {
+            "url": "https://www.sydney.edu.au/study/applying/application-dates.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          },
+          {
+            "url": "https://www.sydney.edu.au/handbooks/archive/2024/architecture/postgraduate/interaction_design/course_resolutions.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJanuary31 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJuly15 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesDecember18 prior year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesMay29 commencing year.",
+            "notes": ""
+          }
+        ],
+        "requirements": [
+          {
+            "category": "language",
+            "text": "Current programme-specific English threshold not verified.",
+            "status": "not_verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html"
+            ]
+          },
+          {
+            "category": "academic",
+            "text": "Undated current course page; intake year not explicitly established: Bachelor degree or equivalent with credit average across all units; alternatively completed embedded graduate diploma, or embedded graduate certificate with average at least70.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html"
+            ],
+            "source_scope": "Undated current course page; intake year not explicitly established",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          }
+        ],
+        "notes": "Central annual calendar only; course pages render limited shell so current intake availability/overrides remain not_verified. No annual rule instantiated to exact2027 dates. Bounded follow-up: academic facts established from official indexed current undated course text; not an explicitly2027 eligibility promise. Direct course page remains a limited shell; dates/language gaps unchanged.",
+        "corrections": [
+          {
+            "field": "requirements",
+            "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+            "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; undated, no2027promotion.",
+            "source_urls": [
+              "https://www.sydney.edu.au/content/courses/courses/pc/master-of-interaction-design-and-electronic-arts.html"
+            ],
+            "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+          }
+        ]
+      }
+    },
+    {
+      "programme_id": "p-4bf749be6a700ce450ca",
+      "review_file": "queue-3.json",
+      "approval": "Parent and independent auditor approved2026-10-31; four-record bounded v2",
+      "before": {
+        "programme_id": "p-4bf749be6a700ce450ca",
+        "review_status": "partial",
+        "checked_at": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          },
+          {
+            "url": "https://www.sydney.edu.au/study/applying/application-dates.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJanuary31 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJuly15 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesDecember18 prior year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesMay29 commencing year.",
+            "notes": ""
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "Programme explicitly targets science/mathematics career changers, but detailed current degree/grade/prerequisites unavailable in rendered course page.",
+            "status": "not_verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html"
+            ]
+          },
+          {
+            "category": "language",
+            "text": "Current programme-specific English threshold not verified.",
+            "status": "not_verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html"
+            ]
+          }
+        ],
+        "notes": "Central annual calendar only; course pages render limited shell so current intake availability/overrides remain not_verified. No annual rule instantiated to exact2027 dates."
+      },
+      "after": {
+        "programme_id": "p-4bf749be6a700ce450ca",
+        "review_status": "partial",
+        "checked_at": "2026-10-31T10:34:18Z",
+        "sources": [
+          {
+            "url": "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html",
+            "title": "University of Sydney undated official indexed course requirements",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31T10:34:18Z",
+            "access_method": "official_search_index",
+            "direct_fetch_status": "limited_shell"
+          },
+          {
+            "url": "https://www.sydney.edu.au/study/applying/application-dates.html",
+            "title": "University of Sydney official admissions source",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJanuary31 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "Domestic",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesJuly15 commencing year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester1",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesDecember18 prior year.",
+            "notes": ""
+          },
+          {
+            "window_type": "application",
+            "intake_label": "Semester2",
+            "cycle": "Annual rule, year unspecified",
+            "round_label": "Main",
+            "applicant_scope": "International",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "annual",
+            "end_date": null,
+            "end_status": "annual",
+            "cutoff_time": null,
+            "timezone": null,
+            "timezone_basis": "not stated",
+            "date_precision": "annual",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.sydney.edu.au/study/applying/application-dates.html"
+            ],
+            "evidence_note": "Generally opens two years before semester; closesMay29 commencing year.",
+            "notes": ""
+          }
+        ],
+        "requirements": [
+          {
+            "category": "language",
+            "text": "Current programme-specific English threshold not verified.",
+            "status": "not_verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html"
+            ]
+          },
+          {
+            "category": "academic",
+            "text": "Undated domestic-selector standard3-year course page; no explicit2027 promise: Australian engineering bachelor with65% average or equivalent; alternatively an Australian non-engineering bachelor with65% average and study equivalent to48credit points (one full-time year) in mathematics, physics, chemistry, biology, geology, computing or statistics relevant to intended stream. This is the undated domestic-selector standard3-year route; international qualification equivalence must be assessed, not assumed.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html"
+            ],
+            "source_scope": "Undated domestic-selector standard3-year course page; no explicit2027 promise",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          }
+        ],
+        "notes": "Central annual calendar only; course pages render limited shell so current intake availability/overrides remain not_verified. No annual rule instantiated to exact2027 dates. Bounded follow-up: academic facts established from official indexed current undated course text; not an explicitly2027 eligibility promise. Direct course page remains a limited shell; dates/language gaps unchanged.",
+        "corrections": [
+          {
+            "field": "requirements",
+            "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+            "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; undated, no2027promotion.",
+            "source_urls": [
+              "https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-mechanical-engineering.html"
+            ],
+            "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+          }
+        ]
+      }
+    },
+    {
+      "programme_id": "p-76f0685be56f58535bb4",
+      "review_file": "queue-4.json",
+      "approval": "Parent and independent auditor approved2026-10-31; four-record bounded v2",
+      "before": {
+        "programme_id": "p-76f0685be56f58535bb4",
+        "review_status": "partial",
+        "checked_at": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology",
+            "title": "Direct source timed out; official search-index excerpt inspected",
+            "access_status": "blocked",
+            "checked_at": "2026-10-31"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 2",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-10-31",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEST (as printed; daylight-saving conflict)",
+            "timezone_basis": "Printed official search-index excerpt",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant."
+          },
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 3",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-11-30",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEDT",
+            "timezone_basis": "Printed official search-index excerpt",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant."
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "Full requirements not reverified because direct official page timed out; archived requirements retained separately.",
+            "status": "not_verified",
+            "source_urls": []
+          }
+        ],
+        "notes": "Only official search-index deadline excerpt accessible; opening, first round and requirements remain unverified in this pass."
+      },
+      "after": {
+        "programme_id": "p-76f0685be56f58535bb4",
+        "review_status": "partial",
+        "checked_at": "2026-10-31T10:34:18Z",
+        "sources": [
+          {
+            "url": "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology",
+            "title": "UTAS2027 Speech Pathology official indexed course requirements",
+            "access_status": "accessed",
+            "checked_at": "2026-10-31T10:34:18Z",
+            "access_method": "official_search_index",
+            "direct_fetch_status": "timeout"
+          }
+        ],
+        "windows": [
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 1",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-09-30",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEST (UTC+10, expressly printed)",
+            "timezone_basis": "Official indexed text explicitly prints AEST; no geographic/DST substitution",
+            "date_precision": "day",
+            "window_status": "closed",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "2027 course official indexed text: first round closes30September2026 at23:59AEST. Direct course fetch timed out.",
+            "notes": "Exact opening date not established. Printed AEST retained.",
+            "deadline_semantics": "round_deadline"
+          },
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 2",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-10-31",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEST (UTC+10, as printed; daylight-saving conflict)",
+            "timezone_basis": "Official indexed text explicitly prints AEST; do not substitute Hobart AEDT",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "Printed AEST conflicts with usual Hobart daylight saving on31October. Retain printed label, do not silently convert or derive a local deadline instant.",
+            "deadline_semantics": "round_deadline"
+          },
+          {
+            "window_type": "application",
+            "intake_label": "2027",
+            "cycle": "2027",
+            "round_label": "Round 3",
+            "applicant_scope": "All applicants",
+            "mode": "Unspecified",
+            "start_date": null,
+            "start_status": "not_verified",
+            "end_date": "2026-11-30",
+            "end_status": "exact",
+            "cutoff_time": "23:59",
+            "timezone": "AEDT",
+            "timezone_basis": "Printed official search-index excerpt",
+            "date_precision": "day",
+            "window_status": "unknown",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "evidence_note": "Official search-index excerpt prints second round October 31, 2026 AEST and final November 30, 2026 AEDT. Direct page retrieval timed out twice.",
+            "notes": "October AEST label conflicts with Tasmania daylight saving; do not derive UTC instant.",
+            "deadline_semantics": "final_closure"
+          }
+        ],
+        "requirements": [
+          {
+            "category": "academic",
+            "text": "2027 course page: International entry: bachelor degree and minimum GPA 5.0; highest eligible GPA used for ranking if multiple. Admission competitive.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 course page",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          },
+          {
+            "category": "prerequisites",
+            "text": "2027 course page: Within preceding 10 years, equivalent of one 12.5-credit-point unit each in human anatomy (head, neck and thorax), linguistics and phonetics, and research methods.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 course page",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          },
+          {
+            "category": "language",
+            "text": "2027 international requirements: IELTS Academic 7.0 overall and each band, no older than two years at expected commencement; alternatively an Australian course accredited by the relevant professional body, or relevant tertiary qualification in English in Australia/equivalent within preceding 24 months.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 international requirements",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          },
+          {
+            "category": "placement",
+            "text": "2027 course page: Compulsory placements require College Safety in Practice compliance before first-semester census date; separate from admission application.",
+            "status": "verified",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "source_scope": "2027 course page",
+            "eligibility_status": "conditional_on_meeting_requirement",
+            "access_method": "official_search_index"
+          }
+        ],
+        "notes": "2027 requirements and three round endings established from official indexed course text. Direct page still times out. Exact opening date, complete application-document checklist and individual eligibility remain unresolved. Admission is competitive. Printed October31AEST retained with daylight-saving caveat; no silent AEDT substitution.",
+        "corrections": [
+          {
+            "field": "requirements/application_rounds",
+            "previous_claim": "Current requirements unavailable; retained in patch ledger.",
+            "current_claim": "Bounded source-established requirements with scope and indexed/direct-access distinction; first2027round added, opening remains unknown.",
+            "source_urls": [
+              "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology"
+            ],
+            "reason": "Parent-approved independent-auditor-gated minimal follow-up; no blanket conditional-to-verified conversion."
+          }
+        ]
+      }
+    }
+  ]
+}

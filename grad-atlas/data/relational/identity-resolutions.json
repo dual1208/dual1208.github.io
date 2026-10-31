@@ -6,5 +6,61 @@
     "checked_at": "2026-10-31",
     "source_url": "https://ar.hkbu.edu.hk/tpg-admissions/programmes/master-of-arts-ma-in-international-journalism-studies",
     "evidence_note": "Both archive titles identify the same HKBU MA in International Journalism Studies and same registry URL. Official registry lists full-time one year and part-time two years together; neither originating record identifies a distinct mode-specific award. Both source IDs remain preserved."
+  },
+  {
+    "alias_id": "p-e27a5cf41199aafaa42e",
+    "canonical_id": "p-25aeef792e76a27ac937",
+    "resolution": "confirmed_same_award_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://acad.iitb.ac.in/index.php/admissions/masters/mpp",
+    "evidence_note": "Both identified IIT Bombay MPP records cite same official award and same2026 brochure; identical reviewed windows and requirements. IDs remain separate."
+  },
+  {
+    "alias_id": "p-b9df93e044adfecb8146",
+    "canonical_id": "p-9fa3b0db1f2041c13a9e",
+    "resolution": "confirmed_same_combined_route_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://uom.lk/ere/msc-rs-gis-mrs-gis-pgdip-rsgis",
+    "evidence_note": "Archived unnamed note explicitly Moratuwa GIS experienced-applicant route and31October2026 extension; named record cites exact same combined MSc/Master route. Not a claim that MSc/Master/PGDip are one award. Keep combined route and all IDs."
+  },
+  {
+    "alias_id": "p-41e7f723c3b49118976a",
+    "canonical_id": "p-3b544f13df9044b73d70",
+    "resolution": "confirmed_same_award_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://www.griffith.edu.au/study/degrees/master-of-environment-5611",
+    "evidence_note": "Archived named Griffith Master of Environment dynamic-page-error note and named award share programme code5611. Failure to render does not establish discontinuance."
+  },
+  {
+    "alias_id": "p-7d38c279cec7a58867e9",
+    "canonical_id": "p-7c3cad771fcfe626baac",
+    "resolution": "confirmed_same_award_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://jnuee.jnu.ac.in/2026/E-Prospectus_for_PG_programme_2026-27.pdf?2026=",
+    "evidence_note": "Same JNU MSc Computational and Integrative Sciences award. Lead names GAT-B route; preserve that route-specific evidence and separate CUET/GAT-B windows, not a claim identical applicant tracks."
+  },
+  {
+    "alias_id": "p-49dd00e9288d3325cc23",
+    "canonical_id": "p-a0f536745e1b2f4cde43",
+    "resolution": "confirmed_same_award_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://ms.kfupm.edu.sa/",
+    "evidence_note": "Same named KFUPM Quantum Computing project-based HIVE award in current catalogue; both negative next-intake outcomes retained."
+  },
+  {
+    "alias_id": "p-928870d71bea87eea580",
+    "canonical_id": "p-76f0685be56f58535bb4",
+    "resolution": "confirmed_same_award_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology",
+    "evidence_note": "Same University of Tasmania Speech Pathology award and coursecodeM7G. Lead questions prerequisite eligibility rather than naming another award; current eligibility uncertainty preserved."
+  },
+  {
+    "alias_id": "p-9c21fd6ad7c145d63416",
+    "canonical_id": "p-29f440761ba73362d91f",
+    "resolution": "confirmed_same_award_ids_preserved",
+    "checked_at": "2026-10-31",
+    "source_url": "https://christuniversity.in//courses/NDQ0",
+    "evidence_note": "Same CHRIST two-year MSc Data Science and exact course identifierNDQ0; no conflicting distinct campus/mode identified in originating records. Intake-year uncertainty preserved."
   }
 ]

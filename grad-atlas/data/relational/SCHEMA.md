@@ -37,3 +37,21 @@ outputs/table.json is a grouped web projection: each programme includes windows,
 ## Deadline semantics
 
 `application_windows.deadline_semantics` distinguishes `final_closure`, `round_deadline`, `priority_consideration`, `funding_consideration`, `recommended_submission`, `document_deadline`, `scholarship_deadline`, and `unspecified`. The default is deliberately **unspecified**, never inferred final closure. UI should use neutral deadline wording unless an explicit reviewed semantic is supplied. `semantics_review_required` flags narrative priority/recommended/funding wording for human/source review without automatically reclassifying it. These flagged or confirmed nonfinal considerations are excluded from the urgent closure list. `deadline-semantics-review.json` retains the open review queue. Recommendation-based admission routes are not the same as suggested submission dates.
+
+`coverage.<scope>.exact_date_pairs` counts all source-evidenced exact application pairs and breaks them down by deadline semantics. It is not a closing-date-completeness metric. `firm_application_pairs` counts only explicitly reviewed `final_closure` and `round_deadline` pairs; unspecified is not treated as final. Per-semantic identity counts can overlap when a programme has multiple windows. Legacy `with_reviewed_exact_start_and_end` remains for backwards compatibility with the all-pairs definition, not a firm-closure claim.
+
+## Review outcomes and identity limitations
+
+`review_outcome_recorded` distinguishes an inspected but unresolved/unverified research note from an item never processed. `review_attempted_at` preserves its inspection date without implying source verification; `checked_at` remains null for unverified outcomes. Scoped coverage now includes `outcomes_recorded`, `without_review_outcome`, and `unresolved_identity_outcomes`. Legacy `inspected` means non-unverified status only; use outcomes_recorded for processing completion.
+
+`review_annotations` durably retains proposed `resolved_programmes` and reciprocal `linked_review_updates`. Multi-programme notes remain unresolved original identities, with individual labels/windows where supplied; no new award IDs are invented. Related/alias evidence is prominently cross-linked in notes and exported in full without replacing another record's direct review. A confirmed combined-route relation is not a claim that distinct exit awards are the same degree. `queue-coverage.json` checks every inventory identity appears in exactly one queue and lists remaining unprocessed IDs.
+
+## Availability guard
+
+Programme and intake availability accept offered, not_offered, discontinued, currently_closed, not_verified. Explicit negative availability suppresses open/future/rolling display and excludes the entry from upcoming application endpoints without erasing historic dates or changing unknown endpoints. Closure of one historical application cycle is not programme discontinuance. `availability-review.json` exposes all negative programme/intake outcomes with scoped evidence. Different-institution successors and similarly named but different degrees must not inherit another programme's availability.
+
+## Source observations and link safety
+
+`source_observations` preserves each programme review's source-access status, timestamp, access method and direct-fetch status. An official indexed-text inspection can support an assertion even when direct fetching fails; these are distinct contexts. `sources.access_status` is an aggregate accessed-if-any observation, NOT the last attempt or a claim every reviewer accessed it. Per-programme projection and `source_observations` must agree.
+
+`source_safety` and public `sources[].link_allowed`, `safety_status`, `safety_reason` prevent the precisely identified compromised former AIMS domain aimsammi.org (including www) from becoming a trusted clickable link. Original references remain plaintext provenance. Window/requirement `safe_source_urls` exclude those hosts, while `excluded_source_urls` preserves the URL and reason. Other unverified/blocked sources are not blanket-banned. Historical archive UI must apply the same exact-host filter.

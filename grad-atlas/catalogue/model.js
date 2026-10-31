@@ -19,5 +19,5 @@ export function sortRecords(records, key) {
   return (a[key] || '').localeCompare(b[key] || '') || a.title.localeCompare(b.title);
  });
 }
-export {safeURL,sourceWarning} from '../model.js?v=sourcesafety1';
+export {safeURL,sourceWarning} from '../model.js?v=finalschema1';
 export function readSaved(storage) {try {const a=JSON.parse(storage.getItem('grad-atlas-shortlist-v1') || '[]');return new Set(Array.isArray(a)?a.filter(x=>typeof x==='string'):[]);}catch{return new Set();}}
