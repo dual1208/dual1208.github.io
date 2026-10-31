@@ -26,3 +26,5 @@ test('priority funding recommendation remain scoped before and after date',()=>{
 test('round deadline does not imply final intake closure',()=>assert.match(deadlineMeaning({...w,deadline_semantics:'round_deadline'}).label,/later rounds may exist/));
 test('only explicit final closure labelled final',()=>assert.equal(deadlineMeaning({...w,deadline_semantics:'final_closure'}).label,'Final application closure'));
 test('document and scholarship deadlines remain contextual',()=>{assert.match(deadlineMeaning({...w,deadline_semantics:'document_deadline'}).label,/documents/);assert.match(deadlineMeaning({...w,deadline_semantics:'scholarship_deadline'}).label,/Scholarship/);});
+
+test('release versions both module dependency levels and dataset',async()=>{const {readFile}=await import('node:fs/promises');const html=await readFile(new URL('../index.html',import.meta.url),'utf8');const app=await readFile(new URL('../app.js',import.meta.url),'utf8');assert.match(html,/app\.js\?v=647s1/);assert.match(app,/model\.js\?v=647s1/);assert.match(app,/table\.json\?v=647s1/);});
